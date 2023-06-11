@@ -1,0 +1,227 @@
+[
+  {
+    "operations": [],
+    "type": "bracket",
+  },
+  {
+    "operations": [],
+    "type": "bracket",
+  },
+  {
+    "operations": [],
+    "type": "bracket",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [],
+    "type": "bracket",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "operations": [],
+        "type": "bracket",
+      },
+      {
+        "operations": [],
+        "type": "bracket",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+]

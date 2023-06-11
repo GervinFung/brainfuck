@@ -1,0 +1,268 @@
+[
+  {
+    "direction": "left",
+    "pairID": 0,
+    "type": "bracket",
+  },
+  {
+    "direction": "right",
+    "pairID": 0,
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "pairID": 1,
+    "type": "bracket",
+  },
+  {
+    "direction": "right",
+    "pairID": 1,
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "pairID": 2,
+    "type": "bracket",
+  },
+  {
+    "direction": "right",
+    "pairID": 2,
+    "type": "bracket",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "left",
+    "pairID": 3,
+    "type": "bracket",
+  },
+  {
+    "direction": "right",
+    "pairID": 3,
+    "type": "bracket",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "left",
+    "pairID": 4,
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "pairID": 5,
+    "type": "bracket",
+  },
+  {
+    "direction": "right",
+    "pairID": 5,
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "pairID": 6,
+    "type": "bracket",
+  },
+  {
+    "direction": "right",
+    "pairID": 6,
+    "type": "bracket",
+  },
+  {
+    "direction": "right",
+    "pairID": 4,
+    "type": "bracket",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+]

@@ -1,0 +1,1192 @@
+[
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "left",
+    "pairID": 0,
+    "type": "bracket",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "pairID": 0,
+    "type": "bracket",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "direction": "left",
+    "pairID": 1,
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "pairID": 1,
+    "type": "bracket",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "direction": "left",
+    "pairID": 2,
+    "type": "bracket",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "direction": "left",
+    "pairID": 3,
+    "type": "bracket",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "pairID": 3,
+    "type": "bracket",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "direction": "left",
+    "pairID": 4,
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "pairID": 4,
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "direction": "left",
+    "pairID": 5,
+    "type": "bracket",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "pairID": 5,
+    "type": "bracket",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "direction": "left",
+    "pairID": 6,
+    "type": "bracket",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "left",
+    "pairID": 7,
+    "type": "bracket",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "pairID": 7,
+    "type": "bracket",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "direction": "left",
+    "pairID": 8,
+    "type": "bracket",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "pairID": 8,
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "direction": "left",
+    "pairID": 9,
+    "type": "bracket",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "pairID": 9,
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "direction": "right",
+    "pairID": 6,
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "direction": "left",
+    "pairID": 10,
+    "type": "bracket",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "left",
+    "pairID": 11,
+    "type": "bracket",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "pairID": 11,
+    "type": "bracket",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "direction": "left",
+    "pairID": 12,
+    "type": "bracket",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "pairID": 12,
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "pairID": 10,
+    "type": "bracket",
+  },
+  {
+    "direction": "right",
+    "pairID": 2,
+    "type": "bracket",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "direction": "left",
+    "pairID": 13,
+    "type": "bracket",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "left",
+    "pairID": 14,
+    "type": "bracket",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "pairID": 14,
+    "type": "bracket",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "direction": "left",
+    "pairID": 15,
+    "type": "bracket",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "pairID": 15,
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "pairID": 13,
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "left",
+    "pairID": 16,
+    "type": "bracket",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "pairID": 16,
+    "type": "bracket",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "direction": "left",
+    "pairID": 17,
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "pairID": 18,
+    "type": "bracket",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "pairID": 18,
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "direction": "right",
+    "pairID": 17,
+    "type": "bracket",
+  },
+]

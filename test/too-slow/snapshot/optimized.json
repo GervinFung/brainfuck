@@ -1,0 +1,1022 @@
+[
+  {
+    "type": "clear-loop",
+  },
+  {
+    "index": 1,
+    "type": "arrow",
+  },
+  {
+    "type": "clear-loop",
+  },
+  {
+    "type": "operation",
+    "value": 7,
+  },
+  {
+    "operations": [
+      {
+        "type": "operation",
+        "value": -1,
+      },
+      {
+        "index": -1,
+        "type": "arrow-operation",
+        "value": 12,
+      },
+      {
+        "index": 1,
+        "type": "arrow",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "index": -1,
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": 13,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "index": 1,
+    "type": "arrow-operation",
+    "value": 6,
+  },
+  {
+    "operations": [
+      {
+        "index": -1,
+        "type": "arrow-operation",
+        "value": 3,
+      },
+      {
+        "index": 1,
+        "type": "arrow-operation",
+        "value": -1,
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "index": -1,
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": -8,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": -2,
+  },
+  {
+    "operations": [
+      {
+        "type": "operation",
+        "value": -3,
+      },
+      {
+        "index": 1,
+        "type": "arrow-operation",
+        "value": 1,
+      },
+      {
+        "index": -1,
+        "type": "arrow",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "index": 1,
+    "type": "arrow-operation",
+    "value": -3,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "operations": [
+      {
+        "type": "operation",
+        "value": -1,
+      },
+      {
+        "index": -1,
+        "type": "arrow-operation",
+        "value": 3,
+      },
+      {
+        "index": 1,
+        "type": "arrow",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "index": -1,
+    "type": "arrow-operation",
+    "value": 1,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": 1,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": 13,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": 3,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": 2,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": -15,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": -1,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": -1,
+  },
+  {
+    "operations": [
+      {
+        "type": "operation",
+        "value": -3,
+      },
+      {
+        "index": 1,
+        "type": "arrow-operation",
+        "value": 1,
+      },
+      {
+        "index": -1,
+        "type": "arrow",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "index": 1,
+    "type": "arrow-operation",
+    "value": -1,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": 1,
+  },
+  {
+    "operations": [
+      {
+        "type": "operation",
+        "value": -1,
+      },
+      {
+        "index": -1,
+        "type": "arrow-operation",
+        "value": 3,
+      },
+      {
+        "index": 1,
+        "type": "arrow",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "index": -1,
+    "type": "arrow-operation",
+    "value": 1,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": 1,
+  },
+  {
+    "index": 1,
+    "type": "arrow-operation",
+    "value": 4,
+  },
+  {
+    "operations": [
+      {
+        "index": -1,
+        "type": "arrow-operation",
+        "value": 4,
+      },
+      {
+        "index": 1,
+        "type": "arrow-operation",
+        "value": -1,
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "index": -1,
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "index": 1,
+    "type": "arrow-operation",
+    "value": 4,
+  },
+  {
+    "operations": [
+      {
+        "index": -1,
+        "type": "arrow-operation",
+        "value": -4,
+      },
+      {
+        "index": 1,
+        "type": "arrow-operation",
+        "value": -1,
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "index": -1,
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": -2,
+  },
+  {
+    "operations": [
+      {
+        "type": "operation",
+        "value": -3,
+      },
+      {
+        "index": 1,
+        "type": "arrow-operation",
+        "value": 1,
+      },
+      {
+        "index": -1,
+        "type": "arrow",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "index": 1,
+    "type": "arrow-operation",
+    "value": -1,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": -3,
+  },
+  {
+    "operations": [
+      {
+        "type": "operation",
+        "value": -1,
+      },
+      {
+        "index": -1,
+        "type": "arrow-operation",
+        "value": 4,
+      },
+      {
+        "index": 1,
+        "type": "arrow",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "index": -1,
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": -5,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "operations": [
+      {
+        "type": "operation",
+        "value": -3,
+      },
+      {
+        "index": 1,
+        "type": "arrow-operation",
+        "value": 1,
+      },
+      {
+        "index": -1,
+        "type": "arrow",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "index": 1,
+    "type": "arrow-operation",
+    "value": -5,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": -3,
+  },
+  {
+    "operations": [
+      {
+        "type": "operation",
+        "value": -1,
+      },
+      {
+        "index": -1,
+        "type": "arrow-operation",
+        "value": 4,
+      },
+      {
+        "index": 1,
+        "type": "arrow",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "index": -1,
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": -12,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": -3,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": -2,
+  },
+  {
+    "operations": [
+      {
+        "type": "operation",
+        "value": -3,
+      },
+      {
+        "index": 1,
+        "type": "arrow-operation",
+        "value": 1,
+      },
+      {
+        "index": -1,
+        "type": "arrow",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "index": 1,
+    "type": "arrow-operation",
+    "value": -1,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": 3,
+  },
+  {
+    "operations": [
+      {
+        "type": "operation",
+        "value": -1,
+      },
+      {
+        "index": -1,
+        "type": "arrow-operation",
+        "value": 3,
+      },
+      {
+        "index": 1,
+        "type": "arrow",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "index": -1,
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": 4,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 2,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": -4,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": 5,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": -9,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": 9,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": 6,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "operations": [
+      {
+        "type": "operation",
+        "value": -4,
+      },
+      {
+        "index": 1,
+        "type": "arrow-operation",
+        "value": 1,
+      },
+      {
+        "index": -1,
+        "type": "arrow",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "index": 1,
+    "type": "arrow-operation",
+    "value": 3,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": 1,
+  },
+  {
+    "operations": [
+      {
+        "type": "operation",
+        "value": -1,
+      },
+      {
+        "index": -1,
+        "type": "arrow-operation",
+        "value": 3,
+      },
+      {
+        "index": 1,
+        "type": "arrow",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "index": -1,
+    "type": "arrow-operation",
+    "value": 2,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": 9,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": -10,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": -1,
+  },
+  {
+    "operations": [
+      {
+        "type": "operation",
+        "value": -3,
+      },
+      {
+        "index": 1,
+        "type": "arrow-operation",
+        "value": 1,
+      },
+      {
+        "index": -1,
+        "type": "arrow",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "index": 1,
+    "type": "arrow-operation",
+    "value": -1,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": 5,
+  },
+  {
+    "operations": [
+      {
+        "type": "operation",
+        "value": -1,
+      },
+      {
+        "index": -1,
+        "type": "arrow-operation",
+        "value": 3,
+      },
+      {
+        "index": 1,
+        "type": "arrow",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "index": -1,
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": -9,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "operations": [
+      {
+        "type": "operation",
+        "value": -3,
+      },
+      {
+        "index": 1,
+        "type": "arrow-operation",
+        "value": 1,
+      },
+      {
+        "index": -1,
+        "type": "arrow",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "index": 1,
+    "type": "arrow-operation",
+    "value": -2,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": -3,
+  },
+  {
+    "operations": [
+      {
+        "type": "operation",
+        "value": -1,
+      },
+      {
+        "index": -1,
+        "type": "arrow-operation",
+        "value": 4,
+      },
+      {
+        "index": 1,
+        "type": "arrow",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "index": -1,
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": -12,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": -3,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": -2,
+  },
+  {
+    "operations": [
+      {
+        "type": "operation",
+        "value": -3,
+      },
+      {
+        "index": 1,
+        "type": "arrow-operation",
+        "value": 1,
+      },
+      {
+        "index": -1,
+        "type": "arrow",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "index": 1,
+    "type": "arrow-operation",
+    "value": -1,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": -3,
+  },
+  {
+    "operations": [
+      {
+        "type": "operation",
+        "value": -1,
+      },
+      {
+        "index": -1,
+        "type": "arrow-operation",
+        "value": 4,
+      },
+      {
+        "index": 1,
+        "type": "arrow",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "index": -1,
+    "type": "arrow-operation",
+    "value": 1,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": -7,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": -5,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": 13,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "index": 1,
+    "type": "arrow-operation",
+    "value": 4,
+  },
+  {
+    "operations": [
+      {
+        "index": -1,
+        "type": "arrow-operation",
+        "value": -4,
+      },
+      {
+        "index": 1,
+        "type": "arrow-operation",
+        "value": -1,
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "index": -1,
+    "type": "arrow-operation",
+    "value": -1,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": 13,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": 1,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": -14,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "operation",
+    "value": -1,
+  },
+  {
+    "operations": [
+      {
+        "type": "operation",
+        "value": -2,
+      },
+      {
+        "index": 1,
+        "type": "arrow-operation",
+        "value": 1,
+      },
+      {
+        "index": -1,
+        "type": "arrow",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "index": 1,
+    "type": "arrow-operation",
+    "value": -4,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "clear-loop",
+  },
+  {
+    "type": "operation",
+    "value": 10,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "type": "clear-loop",
+  },
+  {
+    "index": -1,
+    "type": "arrow",
+  },
+]

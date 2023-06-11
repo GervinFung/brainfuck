@@ -1,0 +1,3572 @@
+[
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operations": [
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+]
