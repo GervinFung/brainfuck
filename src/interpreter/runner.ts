@@ -95,6 +95,7 @@ export default class InterpreterRunner {
                                 Array.from(
                                     { length: node.repeat },
                                     async () => {
+                                        // eslint-disable-next-line no-constant-condition
                                         while (true) {
                                             const response = await new Promise<{
                                                 isOk: true;
