@@ -36,7 +36,7 @@
     "type": "operation",
   },
   {
-    "operations": [
+    "instructions": [
       {
         "direction": "left",
         "type": "arrow",
@@ -97,7 +97,7 @@
     "type": "arrow",
   },
   {
-    "operations": [
+    "instructions": [
       {
         "direction": "right",
         "type": "arrow",

@@ -177,7 +177,7 @@ export default class Optimizer {
                 case 'bracket': {
                     return {
                         type,
-                        nodes: this.negate(node.operations),
+                        nodes: this.negate(node.instructions),
                     };
                 }
             }
@@ -234,7 +234,7 @@ export default class Optimizer {
                         }
 
                         const operations = this.redundantMoveElimination(
-                            node.operations
+                            node.instructions
                         );
 
                         if (!operations.length) {
@@ -243,7 +243,7 @@ export default class Optimizer {
 
                         return nodes.concat({
                             type: 'bracket',
-                            operations,
+                            instructions: operations,
                         });
                     }
                 }

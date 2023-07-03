@@ -32,8 +32,10 @@ export default class Guardian {
         }
 
         const oldMemoryBlock = param.memoryBlock;
+
         const memoryBlock = new Uint8Array(param.memoryBlock.length * 2);
         memoryBlock.set(oldMemoryBlock);
+
         return memoryBlock;
     };
 }

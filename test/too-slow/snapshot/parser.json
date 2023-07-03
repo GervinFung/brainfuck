@@ -1,6 +1,6 @@
 [
   {
-    "operations": [
+    "instructions": [
       {
         "operation": "minus",
         "type": "operation",
@@ -13,7 +13,7 @@
     "type": "arrow",
   },
   {
-    "operations": [
+    "instructions": [
       {
         "operation": "minus",
         "type": "operation",
@@ -50,7 +50,7 @@
     "type": "operation",
   },
   {
-    "operations": [
+    "instructions": [
       {
         "operation": "minus",
         "type": "operation",
@@ -207,7 +207,7 @@
     "type": "operation",
   },
   {
-    "operations": [
+    "instructions": [
       {
         "direction": "left",
         "type": "arrow",
@@ -288,7 +288,7 @@
     "type": "operation",
   },
   {
-    "operations": [
+    "instructions": [
       {
         "operation": "minus",
         "type": "operation",
@@ -337,7 +337,7 @@
     "type": "punctuation",
   },
   {
-    "operations": [
+    "instructions": [
       {
         "operation": "minus",
         "type": "operation",
@@ -546,7 +546,7 @@
     "type": "operation",
   },
   {
-    "operations": [
+    "instructions": [
       {
         "operation": "minus",
         "type": "operation",
@@ -591,7 +591,7 @@
     "type": "operation",
   },
   {
-    "operations": [
+    "instructions": [
       {
         "operation": "minus",
         "type": "operation",
@@ -656,7 +656,7 @@
     "type": "operation",
   },
   {
-    "operations": [
+    "instructions": [
       {
         "direction": "left",
         "type": "arrow",
@@ -717,7 +717,7 @@
     "type": "operation",
   },
   {
-    "operations": [
+    "instructions": [
       {
         "direction": "left",
         "type": "arrow",
@@ -766,7 +766,7 @@
     "type": "operation",
   },
   {
-    "operations": [
+    "instructions": [
       {
         "operation": "minus",
         "type": "operation",
@@ -819,141 +819,7 @@
     "type": "operation",
   },
   {
-    "operations": [
-      {
-        "operation": "minus",
-        "type": "operation",
-      },
-      {
-        "direction": "left",
-        "type": "arrow",
-      },
-      {
-        "operation": "plus",
-        "type": "operation",
-      },
-      {
-        "operation": "plus",
-        "type": "operation",
-      },
-      {
-        "operation": "plus",
-        "type": "operation",
-      },
-      {
-        "operation": "plus",
-        "type": "operation",
-      },
-      {
-        "direction": "right",
-        "type": "arrow",
-      },
-    ],
-    "type": "bracket",
-  },
-  {
-    "direction": "left",
-    "type": "arrow",
-  },
-  {
-    "punctuation": "dot",
-    "type": "punctuation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "punctuation": "dot",
-    "type": "punctuation",
-  },
-  {
-    "operations": [
-      {
-        "operation": "minus",
-        "type": "operation",
-      },
-      {
-        "operation": "minus",
-        "type": "operation",
-      },
-      {
-        "operation": "minus",
-        "type": "operation",
-      },
-      {
-        "direction": "right",
-        "type": "arrow",
-      },
-      {
-        "operation": "plus",
-        "type": "operation",
-      },
-      {
-        "direction": "left",
-        "type": "arrow",
-      },
-    ],
-    "type": "bracket",
-  },
-  {
-    "direction": "right",
-    "type": "arrow",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "punctuation": "dot",
-    "type": "punctuation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operations": [
+    "instructions": [
       {
         "operation": "minus",
         "type": "operation",
@@ -1014,657 +880,11 @@
     "type": "operation",
   },
   {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
     "punctuation": "dot",
     "type": "punctuation",
   },
   {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "punctuation": "dot",
-    "type": "punctuation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operations": [
-      {
-        "operation": "minus",
-        "type": "operation",
-      },
-      {
-        "operation": "minus",
-        "type": "operation",
-      },
-      {
-        "operation": "minus",
-        "type": "operation",
-      },
-      {
-        "direction": "right",
-        "type": "arrow",
-      },
-      {
-        "operation": "plus",
-        "type": "operation",
-      },
-      {
-        "direction": "left",
-        "type": "arrow",
-      },
-    ],
-    "type": "bracket",
-  },
-  {
-    "direction": "right",
-    "type": "arrow",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "punctuation": "dot",
-    "type": "punctuation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operations": [
-      {
-        "operation": "minus",
-        "type": "operation",
-      },
-      {
-        "direction": "left",
-        "type": "arrow",
-      },
-      {
-        "operation": "plus",
-        "type": "operation",
-      },
-      {
-        "operation": "plus",
-        "type": "operation",
-      },
-      {
-        "operation": "plus",
-        "type": "operation",
-      },
-      {
-        "direction": "right",
-        "type": "arrow",
-      },
-    ],
-    "type": "bracket",
-  },
-  {
-    "direction": "left",
-    "type": "arrow",
-  },
-  {
-    "punctuation": "dot",
-    "type": "punctuation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "punctuation": "dot",
-    "type": "punctuation",
-  },
-  {
-    "punctuation": "dot",
-    "type": "punctuation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "punctuation": "dot",
-    "type": "punctuation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "punctuation": "dot",
-    "type": "punctuation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "punctuation": "dot",
-    "type": "punctuation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "punctuation": "dot",
-    "type": "punctuation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "punctuation": "dot",
-    "type": "punctuation",
-  },
-  {
-    "operations": [
-      {
-        "operation": "minus",
-        "type": "operation",
-      },
-      {
-        "operation": "minus",
-        "type": "operation",
-      },
-      {
-        "operation": "minus",
-        "type": "operation",
-      },
-      {
-        "operation": "minus",
-        "type": "operation",
-      },
-      {
-        "direction": "right",
-        "type": "arrow",
-      },
-      {
-        "operation": "plus",
-        "type": "operation",
-      },
-      {
-        "direction": "left",
-        "type": "arrow",
-      },
-    ],
-    "type": "bracket",
-  },
-  {
-    "direction": "right",
-    "type": "arrow",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "punctuation": "dot",
-    "type": "punctuation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operations": [
-      {
-        "operation": "minus",
-        "type": "operation",
-      },
-      {
-        "direction": "left",
-        "type": "arrow",
-      },
-      {
-        "operation": "plus",
-        "type": "operation",
-      },
-      {
-        "operation": "plus",
-        "type": "operation",
-      },
-      {
-        "operation": "plus",
-        "type": "operation",
-      },
-      {
-        "direction": "right",
-        "type": "arrow",
-      },
-    ],
-    "type": "bracket",
-  },
-  {
-    "direction": "left",
-    "type": "arrow",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "punctuation": "dot",
-    "type": "punctuation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "punctuation": "dot",
-    "type": "punctuation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "punctuation": "dot",
-    "type": "punctuation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operations": [
-      {
-        "operation": "minus",
-        "type": "operation",
-      },
-      {
-        "operation": "minus",
-        "type": "operation",
-      },
-      {
-        "operation": "minus",
-        "type": "operation",
-      },
-      {
-        "direction": "right",
-        "type": "arrow",
-      },
-      {
-        "operation": "plus",
-        "type": "operation",
-      },
-      {
-        "direction": "left",
-        "type": "arrow",
-      },
-    ],
-    "type": "bracket",
-  },
-  {
-    "direction": "right",
-    "type": "arrow",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "punctuation": "dot",
-    "type": "punctuation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operations": [
-      {
-        "operation": "minus",
-        "type": "operation",
-      },
-      {
-        "direction": "left",
-        "type": "arrow",
-      },
-      {
-        "operation": "plus",
-        "type": "operation",
-      },
-      {
-        "operation": "plus",
-        "type": "operation",
-      },
-      {
-        "operation": "plus",
-        "type": "operation",
-      },
-      {
-        "direction": "right",
-        "type": "arrow",
-      },
-    ],
-    "type": "bracket",
-  },
-  {
-    "direction": "left",
-    "type": "arrow",
-  },
-  {
-    "punctuation": "dot",
-    "type": "punctuation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "operation": "minus",
-    "type": "operation",
-  },
-  {
-    "punctuation": "dot",
-    "type": "punctuation",
-  },
-  {
-    "operations": [
+    "instructions": [
       {
         "operation": "minus",
         "type": "operation",
@@ -1705,6 +925,18 @@
     "type": "operation",
   },
   {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
     "punctuation": "dot",
     "type": "punctuation",
   },
@@ -1721,7 +953,7 @@
     "type": "operation",
   },
   {
-    "operations": [
+    "instructions": [
       {
         "operation": "minus",
         "type": "operation",
@@ -1838,7 +1070,775 @@
     "type": "operation",
   },
   {
-    "operations": [
+    "instructions": [
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "instructions": [
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "instructions": [
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "instructions": [
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "instructions": [
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "instructions": [
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "instructions": [
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "instructions": [
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "operation": "minus",
+    "type": "operation",
+  },
+  {
+    "instructions": [
       {
         "operation": "minus",
         "type": "operation",
@@ -1891,7 +1891,7 @@
     "type": "operation",
   },
   {
-    "operations": [
+    "instructions": [
       {
         "operation": "minus",
         "type": "operation",
@@ -2068,7 +2068,7 @@
     "type": "operation",
   },
   {
-    "operations": [
+    "instructions": [
       {
         "direction": "left",
         "type": "arrow",
@@ -2241,7 +2241,7 @@
     "type": "operation",
   },
   {
-    "operations": [
+    "instructions": [
       {
         "operation": "minus",
         "type": "operation",
@@ -2290,7 +2290,7 @@
     "type": "punctuation",
   },
   {
-    "operations": [
+    "instructions": [
       {
         "operation": "minus",
         "type": "operation",
@@ -2343,7 +2343,7 @@
     "type": "punctuation",
   },
   {
-    "operations": [
+    "instructions": [
       {
         "operation": "minus",
         "type": "operation",
