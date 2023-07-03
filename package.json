@@ -5,6 +5,7 @@
     "license": "MIT",
     "scripts": {
         "lint": "pnpm vite-node script/lint.ts",
+        "typecheck": "tsc --noEmit",
         "format": "prettier --ignore-path .gitignore --write src test/**/*.ts",
         "format-check": "prettier --ignore-path .gitignore --check src test/**/*.ts",
         "test": "vitest"
