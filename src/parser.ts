@@ -10,17 +10,29 @@ type NonBracket = Exclude<
     }
 >;
 
-type Operation = NonBracket | Bracket;
-
 type Bracket = Readonly<{
     type: 'bracket';
-    operations: ReadonlyArray<Operation>;
+    nodes: Nodes;
+}>
+
+type NonBracketNode = Readonly<{
+    parser: Parser,
+    node: NonBracket
+}>
+
+type BracketNode = Readonly<{
+    parser: Parser,
+    node: Bracket
 }>;
 
-type Nodes = ReturnType<Parser['generate']>;
+type Node = BracketNode | NonBracketNode
+
+type Nodes = ReadonlyArray<Node>
+
+type GenereatedNodes = ReturnType<Parser['generate']>;
 
 export default class Parser {
-    constructor(private tokens: ReturnType<TokensGenerator['generate']>) {}
+    constructor(private readonly tokens: ReturnType<TokensGenerator['generate']>) {}
 
     private readonly firstToken = () =>
         guard({
@@ -28,21 +40,21 @@ export default class Parser {
             error: () => new Error('There should be at least one token'),
         });
 
-    private readonly removeUsedToken = () =>
-        guard({
-            value: this.removeUsedTokens(1).at(0),
-            error: () => new Error('There should be at least one token'),
-        });
-
     private readonly removeUsedTokens = (end: number) => {
-        const tokens = this.tokens.slice(0, end);
-        this.tokens = this.tokens.slice(end);
-        return tokens;
+
+        return {
+            usedTokens: this.tokens.slice(0, end),
+            parser: new Parser(this.tokens.slice(end))
+        };
     };
 
-    private readonly nonBracket = (token: NonBracket): NonBracket => {
-        this.removeUsedToken();
-        return token;
+    private readonly nonBracket = (token: NonBracket): NonBracketNode => {
+        const result = this.removeUsedTokens(1);
+
+        return {
+            node: token,
+            parser: result.parser
+        };
     };
 
     private readonly bracket = (
@@ -51,7 +63,7 @@ export default class Parser {
             direction: 'left';
             pairID: number;
         }>
-    ): Bracket => {
+    ): BracketNode => {
         const matcingBracketPair = this.tokens.flatMap((token, index) =>
             !(token.type === 'bracket' && token.pairID === leftBracket.pairID)
                 ? []
@@ -68,44 +80,55 @@ export default class Parser {
             value: matcingBracketPair.at(1),
             error: () => new Error('There should be matching right bracket'),
         });
+            
+        const result = this.removeUsedTokens(right.index + 1)
 
-        const operations = this.removeUsedTokens(right.index + 1).slice(1, -1);
+        const tokens = result.usedTokens.slice(1, -1);
 
         return {
-            type: 'bracket',
-            operations: new Parser(operations).generate(),
+            parser: result.parser,
+            node: {
+                type: 'bracket',
+                nodes: new Parser(tokens).generate(),
+            },
         };
     };
 
     private readonly processToken = () => {
         const token = this.firstToken();
-
+        
         if (token.type !== 'bracket') {
             return this.nonBracket(token);
         }
 
-        const { direction, ...rest } = token;
+        const { direction } = token;
 
         if (direction === 'right') {
             throw new Error('Right bracket should be removed by now');
         }
-
-        return this.bracket({ ...rest, direction: 'left' });
+        
+        return this.bracket({ ...token, direction });
     };
+    
+    private readonly recursively = (params: Readonly<{
+        parser: Parser
+        nodes: Nodes
+    }>): Nodes => {
+        if (!params.parser.tokens.length) {
+            return params.nodes
+        }
+        
+        const result = this.processToken()
 
+        return this.recursively({
+            nodes: params.nodes.concat(result.node),
+            parser: result.parser
+        });
+    }
+    
     readonly generate = () => {
-        if (this.tokens.length === 1) {
-            return this.tokens as Bracket['operations'];
-        }
-
-        const nodes = [] as Array<Operation>;
-
-        while (this.tokens.length) {
-            nodes.push(this.processToken());
-        }
-
-        return nodes;
+        return this.recursively({ nodes: [], parser: this })
     };
 }
 
-export type { Nodes };
+export type { GenereatedNodes as Nodes };

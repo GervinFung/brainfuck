@@ -4,9 +4,9 @@
     "version": "1.5.1",
     "license": "MIT",
     "scripts": {
-        "lint": "eslint --ignore-path .gitignore src/ test/ -f='stylish' --color",
-        "format": "prettier --ignore-path .gitignore --write src/ test/**/*.ts",
-        "format-check": "prettier --ignore-path .gitignore --check src/ test/**/*.ts",
+        "lint": "eslint --ignore-path .gitignore src test -f='stylish' --color",
+        "format": "prettier --ignore-path .gitignore --write src test/**/*.ts",
+        "format-check": "prettier --ignore-path .gitignore --check src test/**/*.ts",
         "test": "vitest"
     },
     "devDependencies": {
