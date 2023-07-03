@@ -1,10 +1,10 @@
 [
   {
-    "operations": [],
+    "instructions": [],
     "type": "bracket",
   },
   {
-    "operations": [
+    "instructions": [
       {
         "punctuation": "dot",
         "type": "punctuation",
@@ -61,7 +61,7 @@
     "type": "operation",
   },
   {
-    "operations": [
+    "instructions": [
       {
         "direction": "left",
         "type": "arrow",
@@ -158,7 +158,7 @@
     "type": "operation",
   },
   {
-    "operations": [
+    "instructions": [
       {
         "direction": "right",
         "type": "arrow",
@@ -231,13 +231,13 @@
     "type": "arrow",
   },
   {
-    "operations": [
+    "instructions": [
       {
         "direction": "right",
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
             "direction": "right",
             "type": "arrow",
@@ -278,7 +278,7 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
             "operation": "minus",
             "type": "operation",
@@ -335,7 +335,7 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
             "operation": "minus",
             "type": "operation",
@@ -360,9 +360,9 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -402,9 +402,9 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -444,9 +444,9 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -479,9 +479,9 @@
             "type": "arrow",
           },
           {
-            "operations": [
+            "instructions": [
               {
-                "operations": [
+                "instructions": [
                   {
                     "operation": "minus",
                     "type": "operation",
@@ -561,7 +561,7 @@
             "type": "operation",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "direction": "right",
                 "type": "arrow",
@@ -598,7 +598,7 @@
             "type": "arrow",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "direction": "left",
                 "type": "arrow",
@@ -627,9 +627,9 @@
             "type": "arrow",
           },
           {
-            "operations": [
+            "instructions": [
               {
-                "operations": [
+                "instructions": [
                   {
                     "operation": "minus",
                     "type": "operation",
@@ -708,7 +708,7 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
             "direction": "right",
             "type": "arrow",
@@ -749,7 +749,7 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
             "operation": "minus",
             "type": "operation",
@@ -794,7 +794,7 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
             "operation": "minus",
             "type": "operation",
@@ -819,9 +819,9 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -861,9 +861,9 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -907,7 +907,7 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
             "direction": "right",
             "type": "arrow",
@@ -960,344 +960,7 @@
         "type": "arrow",
       },
       {
-        "operations": [
-          {
-            "operation": "minus",
-            "type": "operation",
-          },
-          {
-            "direction": "left",
-            "type": "arrow",
-          },
-          {
-            "direction": "left",
-            "type": "arrow",
-          },
-          {
-            "direction": "left",
-            "type": "arrow",
-          },
-          {
-            "operation": "plus",
-            "type": "operation",
-          },
-          {
-            "direction": "right",
-            "type": "arrow",
-          },
-          {
-            "direction": "right",
-            "type": "arrow",
-          },
-          {
-            "direction": "right",
-            "type": "arrow",
-          },
-        ],
-        "type": "bracket",
-      },
-      {
-        "operation": "plus",
-        "type": "operation",
-      },
-      {
-        "operation": "plus",
-        "type": "operation",
-      },
-      {
-        "direction": "right",
-        "type": "arrow",
-      },
-      {
-        "operation": "plus",
-        "type": "operation",
-      },
-      {
-        "direction": "left",
-        "type": "arrow",
-      },
-      {
-        "operations": [
-          {
-            "operation": "minus",
-            "type": "operation",
-          },
-          {
-            "direction": "left",
-            "type": "arrow",
-          },
-          {
-            "operation": "minus",
-            "type": "operation",
-          },
-          {
-            "direction": "right",
-            "type": "arrow",
-          },
-        ],
-        "type": "bracket",
-      },
-      {
-        "direction": "left",
-        "type": "arrow",
-      },
-      {
-        "operations": [
-          {
-            "operations": [
-              {
-                "operation": "minus",
-                "type": "operation",
-              },
-            ],
-            "type": "bracket",
-          },
-          {
-            "direction": "right",
-            "type": "arrow",
-          },
-          {
-            "direction": "right",
-            "type": "arrow",
-          },
-          {
-            "operation": "minus",
-            "type": "operation",
-          },
-          {
-            "direction": "left",
-            "type": "arrow",
-          },
-          {
-            "direction": "left",
-            "type": "arrow",
-          },
-        ],
-        "type": "bracket",
-      },
-      {
-        "direction": "right",
-        "type": "arrow",
-      },
-      {
-        "direction": "right",
-        "type": "arrow",
-      },
-      {
-        "operations": [
-          {
-            "operations": [
-              {
-                "operation": "minus",
-                "type": "operation",
-              },
-            ],
-            "type": "bracket",
-          },
-          {
-            "direction": "left",
-            "type": "arrow",
-          },
-          {
-            "direction": "left",
-            "type": "arrow",
-          },
-          {
-            "operation": "plus",
-            "type": "operation",
-          },
-          {
-            "direction": "right",
-            "type": "arrow",
-          },
-          {
-            "direction": "right",
-            "type": "arrow",
-          },
-        ],
-        "type": "bracket",
-      },
-      {
-        "direction": "left",
-        "type": "arrow",
-      },
-      {
-        "direction": "left",
-        "type": "arrow",
-      },
-      {
-        "operations": [
-          {
-            "direction": "right",
-            "type": "arrow",
-          },
-          {
-            "operation": "plus",
-            "type": "operation",
-          },
-          {
-            "direction": "left",
-            "type": "arrow",
-          },
-          {
-            "operations": [
-              {
-                "operation": "minus",
-                "type": "operation",
-              },
-            ],
-            "type": "bracket",
-          },
-        ],
-        "type": "bracket",
-      },
-      {
-        "direction": "left",
-        "type": "arrow",
-      },
-      {
-        "operations": [
-          {
-            "direction": "right",
-            "type": "arrow",
-          },
-          {
-            "direction": "right",
-            "type": "arrow",
-          },
-          {
-            "operation": "plus",
-            "type": "operation",
-          },
-          {
-            "direction": "left",
-            "type": "arrow",
-          },
-          {
-            "direction": "left",
-            "type": "arrow",
-          },
-          {
-            "operations": [
-              {
-                "operation": "minus",
-                "type": "operation",
-              },
-            ],
-            "type": "bracket",
-          },
-        ],
-        "type": "bracket",
-      },
-      {
-        "direction": "right",
-        "type": "arrow",
-      },
-      {
-        "direction": "right",
-        "type": "arrow",
-      },
-      {
-        "operations": [
-          {
-            "direction": "left",
-            "type": "arrow",
-          },
-          {
-            "direction": "left",
-            "type": "arrow",
-          },
-          {
-            "operation": "plus",
-            "type": "operation",
-          },
-          {
-            "direction": "right",
-            "type": "arrow",
-          },
-          {
-            "direction": "right",
-            "type": "arrow",
-          },
-          {
-            "operations": [
-              {
-                "operation": "minus",
-                "type": "operation",
-              },
-            ],
-            "type": "bracket",
-          },
-        ],
-        "type": "bracket",
-      },
-      {
-        "direction": "left",
-        "type": "arrow",
-      },
-      {
-        "direction": "left",
-        "type": "arrow",
-      },
-      {
-        "direction": "left",
-        "type": "arrow",
-      },
-      {
-        "operations": [
-          {
-            "direction": "right",
-            "type": "arrow",
-          },
-          {
-            "direction": "right",
-            "type": "arrow",
-          },
-          {
-            "operation": "plus",
-            "type": "operation",
-          },
-          {
-            "direction": "right",
-            "type": "arrow",
-          },
-          {
-            "operation": "plus",
-            "type": "operation",
-          },
-          {
-            "direction": "left",
-            "type": "arrow",
-          },
-          {
-            "direction": "left",
-            "type": "arrow",
-          },
-          {
-            "direction": "left",
-            "type": "arrow",
-          },
-          {
-            "operation": "minus",
-            "type": "operation",
-          },
-        ],
-        "type": "bracket",
-      },
-      {
-        "direction": "right",
-        "type": "arrow",
-      },
-      {
-        "direction": "right",
-        "type": "arrow",
-      },
-      {
-        "direction": "right",
-        "type": "arrow",
-      },
-      {
-        "operations": [
+        "instructions": [
           {
             "operation": "minus",
             "type": "operation",
@@ -1342,14 +1005,6 @@
         "type": "operation",
       },
       {
-        "operation": "plus",
-        "type": "operation",
-      },
-      {
-        "operation": "plus",
-        "type": "operation",
-      },
-      {
         "direction": "right",
         "type": "arrow",
       },
@@ -1362,7 +1017,7 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
             "operation": "minus",
             "type": "operation",
@@ -1387,9 +1042,9 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -1429,9 +1084,9 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -1471,7 +1126,7 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
             "direction": "right",
             "type": "arrow",
@@ -1485,7 +1140,7 @@
             "type": "arrow",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -1501,7 +1156,7 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
             "direction": "right",
             "type": "arrow",
@@ -1523,7 +1178,7 @@
             "type": "arrow",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -1543,7 +1198,7 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
             "direction": "left",
             "type": "arrow",
@@ -1565,7 +1220,7 @@
             "type": "arrow",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -1585,9 +1240,354 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "instructions": [
           {
-            "operations": [
+            "direction": "right",
+            "type": "arrow",
+          },
+          {
+            "direction": "right",
+            "type": "arrow",
+          },
+          {
+            "operation": "plus",
+            "type": "operation",
+          },
+          {
+            "direction": "right",
+            "type": "arrow",
+          },
+          {
+            "operation": "plus",
+            "type": "operation",
+          },
+          {
+            "direction": "left",
+            "type": "arrow",
+          },
+          {
+            "direction": "left",
+            "type": "arrow",
+          },
+          {
+            "direction": "left",
+            "type": "arrow",
+          },
+          {
+            "operation": "minus",
+            "type": "operation",
+          },
+        ],
+        "type": "bracket",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "instructions": [
+          {
+            "operation": "minus",
+            "type": "operation",
+          },
+          {
+            "direction": "left",
+            "type": "arrow",
+          },
+          {
+            "direction": "left",
+            "type": "arrow",
+          },
+          {
+            "direction": "left",
+            "type": "arrow",
+          },
+          {
+            "operation": "plus",
+            "type": "operation",
+          },
+          {
+            "direction": "right",
+            "type": "arrow",
+          },
+          {
+            "direction": "right",
+            "type": "arrow",
+          },
+          {
+            "direction": "right",
+            "type": "arrow",
+          },
+        ],
+        "type": "bracket",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "instructions": [
+          {
+            "operation": "minus",
+            "type": "operation",
+          },
+          {
+            "direction": "left",
+            "type": "arrow",
+          },
+          {
+            "operation": "minus",
+            "type": "operation",
+          },
+          {
+            "direction": "right",
+            "type": "arrow",
+          },
+        ],
+        "type": "bracket",
+      },
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "instructions": [
+          {
+            "instructions": [
+              {
+                "operation": "minus",
+                "type": "operation",
+              },
+            ],
+            "type": "bracket",
+          },
+          {
+            "direction": "right",
+            "type": "arrow",
+          },
+          {
+            "direction": "right",
+            "type": "arrow",
+          },
+          {
+            "operation": "minus",
+            "type": "operation",
+          },
+          {
+            "direction": "left",
+            "type": "arrow",
+          },
+          {
+            "direction": "left",
+            "type": "arrow",
+          },
+        ],
+        "type": "bracket",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "instructions": [
+          {
+            "instructions": [
+              {
+                "operation": "minus",
+                "type": "operation",
+              },
+            ],
+            "type": "bracket",
+          },
+          {
+            "direction": "left",
+            "type": "arrow",
+          },
+          {
+            "direction": "left",
+            "type": "arrow",
+          },
+          {
+            "operation": "plus",
+            "type": "operation",
+          },
+          {
+            "direction": "right",
+            "type": "arrow",
+          },
+          {
+            "direction": "right",
+            "type": "arrow",
+          },
+        ],
+        "type": "bracket",
+      },
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "instructions": [
+          {
+            "direction": "right",
+            "type": "arrow",
+          },
+          {
+            "operation": "plus",
+            "type": "operation",
+          },
+          {
+            "direction": "left",
+            "type": "arrow",
+          },
+          {
+            "instructions": [
+              {
+                "operation": "minus",
+                "type": "operation",
+              },
+            ],
+            "type": "bracket",
+          },
+        ],
+        "type": "bracket",
+      },
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "instructions": [
+          {
+            "direction": "right",
+            "type": "arrow",
+          },
+          {
+            "direction": "right",
+            "type": "arrow",
+          },
+          {
+            "operation": "plus",
+            "type": "operation",
+          },
+          {
+            "direction": "left",
+            "type": "arrow",
+          },
+          {
+            "direction": "left",
+            "type": "arrow",
+          },
+          {
+            "instructions": [
+              {
+                "operation": "minus",
+                "type": "operation",
+              },
+            ],
+            "type": "bracket",
+          },
+        ],
+        "type": "bracket",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "instructions": [
+          {
+            "direction": "left",
+            "type": "arrow",
+          },
+          {
+            "direction": "left",
+            "type": "arrow",
+          },
+          {
+            "operation": "plus",
+            "type": "operation",
+          },
+          {
+            "direction": "right",
+            "type": "arrow",
+          },
+          {
+            "direction": "right",
+            "type": "arrow",
+          },
+          {
+            "instructions": [
+              {
+                "operation": "minus",
+                "type": "operation",
+              },
+            ],
+            "type": "bracket",
+          },
+        ],
+        "type": "bracket",
+      },
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "instructions": [
+          {
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -1640,7 +1640,7 @@
             "type": "operation",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "direction": "right",
                 "type": "arrow",
@@ -1693,7 +1693,7 @@
             "type": "arrow",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "direction": "left",
                 "type": "arrow",
@@ -1731,7 +1731,7 @@
                 "type": "operation",
               },
               {
-                "operations": [
+                "instructions": [
                   {
                     "direction": "right",
                     "type": "arrow",
@@ -1816,7 +1816,7 @@
                 "type": "operation",
               },
               {
-                "operations": [
+                "instructions": [
                   {
                     "direction": "right",
                     "type": "arrow",
@@ -1861,7 +1861,7 @@
                 "type": "arrow",
               },
               {
-                "operations": [
+                "instructions": [
                   {
                     "direction": "left",
                     "type": "arrow",
@@ -1941,7 +1941,7 @@
             "type": "operation",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "direction": "right",
                 "type": "arrow",
@@ -1994,7 +1994,7 @@
             "type": "arrow",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -2059,7 +2059,7 @@
             "type": "operation",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "direction": "left",
                 "type": "arrow",
@@ -2132,7 +2132,7 @@
             "type": "operation",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "direction": "right",
                 "type": "arrow",
@@ -2229,7 +2229,7 @@
             "type": "operation",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "direction": "right",
                 "type": "arrow",
@@ -2450,7 +2450,7 @@
             "type": "arrow",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "direction": "right",
                 "type": "arrow",
@@ -2515,7 +2515,7 @@
             "type": "arrow",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -2572,7 +2572,7 @@
             "type": "arrow",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -2597,9 +2597,9 @@
             "type": "arrow",
           },
           {
-            "operations": [
+            "instructions": [
               {
-                "operations": [
+                "instructions": [
                   {
                     "operation": "minus",
                     "type": "operation",
@@ -2639,9 +2639,9 @@
             "type": "arrow",
           },
           {
-            "operations": [
+            "instructions": [
               {
-                "operations": [
+                "instructions": [
                   {
                     "operation": "minus",
                     "type": "operation",
@@ -2689,7 +2689,7 @@
             "type": "arrow",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "direction": "right",
                 "type": "arrow",
@@ -2754,7 +2754,7 @@
             "type": "arrow",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -2815,7 +2815,7 @@
             "type": "arrow",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -2840,9 +2840,9 @@
             "type": "arrow",
           },
           {
-            "operations": [
+            "instructions": [
               {
-                "operations": [
+                "instructions": [
                   {
                     "operation": "minus",
                     "type": "operation",
@@ -2882,210 +2882,9 @@
             "type": "arrow",
           },
           {
-            "operations": [
+            "instructions": [
               {
-                "operations": [
-                  {
-                    "operation": "minus",
-                    "type": "operation",
-                  },
-                ],
-                "type": "bracket",
-              },
-              {
-                "direction": "left",
-                "type": "arrow",
-              },
-              {
-                "direction": "left",
-                "type": "arrow",
-              },
-              {
-                "operation": "plus",
-                "type": "operation",
-              },
-              {
-                "direction": "right",
-                "type": "arrow",
-              },
-              {
-                "direction": "right",
-                "type": "arrow",
-              },
-            ],
-            "type": "bracket",
-          },
-          {
-            "direction": "left",
-            "type": "arrow",
-          },
-          {
-            "direction": "left",
-            "type": "arrow",
-          },
-          {
-            "direction": "left",
-            "type": "arrow",
-          },
-          {
-            "operations": [
-              {
-                "direction": "right",
-                "type": "arrow",
-              },
-              {
-                "direction": "right",
-                "type": "arrow",
-              },
-              {
-                "operation": "plus",
-                "type": "operation",
-              },
-              {
-                "direction": "left",
-                "type": "arrow",
-              },
-              {
-                "direction": "left",
-                "type": "arrow",
-              },
-              {
-                "operations": [
-                  {
-                    "operation": "minus",
-                    "type": "operation",
-                  },
-                ],
-                "type": "bracket",
-              },
-            ],
-            "type": "bracket",
-          },
-          {
-            "direction": "right",
-            "type": "arrow",
-          },
-          {
-            "operations": [
-              {
-                "direction": "right",
-                "type": "arrow",
-              },
-              {
-                "operation": "plus",
-                "type": "operation",
-              },
-              {
-                "direction": "left",
-                "type": "arrow",
-              },
-              {
-                "operations": [
-                  {
-                    "operation": "minus",
-                    "type": "operation",
-                  },
-                ],
-                "type": "bracket",
-              },
-            ],
-            "type": "bracket",
-          },
-          {
-            "operation": "plus",
-            "type": "operation",
-          },
-          {
-            "operation": "plus",
-            "type": "operation",
-          },
-          {
-            "direction": "right",
-            "type": "arrow",
-          },
-          {
-            "direction": "right",
-            "type": "arrow",
-          },
-          {
-            "operation": "plus",
-            "type": "operation",
-          },
-          {
-            "direction": "left",
-            "type": "arrow",
-          },
-          {
-            "operations": [
-              {
-                "operation": "minus",
-                "type": "operation",
-              },
-              {
-                "direction": "left",
-                "type": "arrow",
-              },
-              {
-                "operation": "minus",
-                "type": "operation",
-              },
-              {
-                "direction": "right",
-                "type": "arrow",
-              },
-            ],
-            "type": "bracket",
-          },
-          {
-            "direction": "left",
-            "type": "arrow",
-          },
-          {
-            "operations": [
-              {
-                "operations": [
-                  {
-                    "operation": "minus",
-                    "type": "operation",
-                  },
-                ],
-                "type": "bracket",
-              },
-              {
-                "direction": "right",
-                "type": "arrow",
-              },
-              {
-                "direction": "right",
-                "type": "arrow",
-              },
-              {
-                "operation": "minus",
-                "type": "operation",
-              },
-              {
-                "direction": "left",
-                "type": "arrow",
-              },
-              {
-                "direction": "left",
-                "type": "arrow",
-              },
-            ],
-            "type": "bracket",
-          },
-          {
-            "direction": "right",
-            "type": "arrow",
-          },
-          {
-            "direction": "right",
-            "type": "arrow",
-          },
-          {
-            "operations": [
-              {
-                "operations": [
+                "instructions": [
                   {
                     "operation": "minus",
                     "type": "operation",
@@ -3121,6 +2920,94 @@
             "type": "arrow",
           },
           {
+            "direction": "left",
+            "type": "arrow",
+          },
+          {
+            "direction": "left",
+            "type": "arrow",
+          },
+          {
+            "instructions": [
+              {
+                "direction": "right",
+                "type": "arrow",
+              },
+              {
+                "direction": "right",
+                "type": "arrow",
+              },
+              {
+                "operation": "plus",
+                "type": "operation",
+              },
+              {
+                "direction": "left",
+                "type": "arrow",
+              },
+              {
+                "direction": "left",
+                "type": "arrow",
+              },
+              {
+                "instructions": [
+                  {
+                    "operation": "minus",
+                    "type": "operation",
+                  },
+                ],
+                "type": "bracket",
+              },
+            ],
+            "type": "bracket",
+          },
+          {
+            "direction": "right",
+            "type": "arrow",
+          },
+          {
+            "instructions": [
+              {
+                "direction": "right",
+                "type": "arrow",
+              },
+              {
+                "operation": "plus",
+                "type": "operation",
+              },
+              {
+                "direction": "left",
+                "type": "arrow",
+              },
+              {
+                "instructions": [
+                  {
+                    "operation": "minus",
+                    "type": "operation",
+                  },
+                ],
+                "type": "bracket",
+              },
+            ],
+            "type": "bracket",
+          },
+          {
+            "operation": "plus",
+            "type": "operation",
+          },
+          {
+            "operation": "plus",
+            "type": "operation",
+          },
+          {
+            "direction": "right",
+            "type": "arrow",
+          },
+          {
+            "direction": "right",
+            "type": "arrow",
+          },
+          {
             "operation": "plus",
             "type": "operation",
           },
@@ -3129,9 +3016,122 @@
             "type": "arrow",
           },
           {
-            "operations": [
+            "instructions": [
               {
-                "operations": [
+                "operation": "minus",
+                "type": "operation",
+              },
+              {
+                "direction": "left",
+                "type": "arrow",
+              },
+              {
+                "operation": "minus",
+                "type": "operation",
+              },
+              {
+                "direction": "right",
+                "type": "arrow",
+              },
+            ],
+            "type": "bracket",
+          },
+          {
+            "direction": "left",
+            "type": "arrow",
+          },
+          {
+            "instructions": [
+              {
+                "instructions": [
+                  {
+                    "operation": "minus",
+                    "type": "operation",
+                  },
+                ],
+                "type": "bracket",
+              },
+              {
+                "direction": "right",
+                "type": "arrow",
+              },
+              {
+                "direction": "right",
+                "type": "arrow",
+              },
+              {
+                "operation": "minus",
+                "type": "operation",
+              },
+              {
+                "direction": "left",
+                "type": "arrow",
+              },
+              {
+                "direction": "left",
+                "type": "arrow",
+              },
+            ],
+            "type": "bracket",
+          },
+          {
+            "direction": "right",
+            "type": "arrow",
+          },
+          {
+            "direction": "right",
+            "type": "arrow",
+          },
+          {
+            "instructions": [
+              {
+                "instructions": [
+                  {
+                    "operation": "minus",
+                    "type": "operation",
+                  },
+                ],
+                "type": "bracket",
+              },
+              {
+                "direction": "left",
+                "type": "arrow",
+              },
+              {
+                "direction": "left",
+                "type": "arrow",
+              },
+              {
+                "operation": "plus",
+                "type": "operation",
+              },
+              {
+                "direction": "right",
+                "type": "arrow",
+              },
+              {
+                "direction": "right",
+                "type": "arrow",
+              },
+            ],
+            "type": "bracket",
+          },
+          {
+            "direction": "left",
+            "type": "arrow",
+          },
+          {
+            "operation": "plus",
+            "type": "operation",
+          },
+          {
+            "direction": "left",
+            "type": "arrow",
+          },
+          {
+            "instructions": [
+              {
+                "instructions": [
                   {
                     "operation": "minus",
                     "type": "operation",
@@ -3159,7 +3159,7 @@
             "type": "arrow",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "direction": "left",
                 "type": "arrow",
@@ -3221,7 +3221,7 @@
                 "type": "arrow",
               },
               {
-                "operations": [
+                "instructions": [
                   {
                     "operation": "minus",
                     "type": "operation",
@@ -3457,7 +3457,7 @@
             "type": "punctuation",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -3474,7 +3474,7 @@
             "type": "arrow",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -3490,7 +3490,7 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
             "direction": "right",
             "type": "arrow",
@@ -3531,7 +3531,7 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
             "operation": "minus",
             "type": "operation",
@@ -3576,7 +3576,7 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
             "operation": "minus",
             "type": "operation",
@@ -3601,9 +3601,9 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -3643,9 +3643,9 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -3689,7 +3689,7 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
             "direction": "right",
             "type": "arrow",
@@ -3742,7 +3742,7 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
             "operation": "minus",
             "type": "operation",
@@ -3807,7 +3807,7 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
             "operation": "minus",
             "type": "operation",
@@ -3832,9 +3832,9 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -3874,9 +3874,9 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -3916,7 +3916,7 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
             "direction": "right",
             "type": "arrow",
@@ -3930,7 +3930,7 @@
             "type": "arrow",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -3946,7 +3946,7 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
             "direction": "right",
             "type": "arrow",
@@ -3968,7 +3968,7 @@
             "type": "arrow",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -3988,7 +3988,7 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
             "direction": "left",
             "type": "arrow",
@@ -4010,7 +4010,7 @@
             "type": "arrow",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -4030,9 +4030,9 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -4077,7 +4077,7 @@
             "type": "operation",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "direction": "left",
                 "type": "arrow",
@@ -4162,7 +4162,7 @@
             "type": "operation",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "direction": "right",
                 "type": "arrow",
@@ -4399,7 +4399,7 @@
             "type": "operation",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "direction": "right",
                 "type": "arrow",
@@ -4464,7 +4464,7 @@
             "type": "operation",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "direction": "right",
                 "type": "arrow",
@@ -4565,7 +4565,7 @@
             "type": "punctuation",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -4582,281 +4582,7 @@
             "type": "arrow",
           },
           {
-            "operations": [
-              {
-                "operation": "minus",
-                "type": "operation",
-              },
-            ],
-            "type": "bracket",
-          },
-          {
-            "operation": "plus",
-            "type": "operation",
-          },
-          {
-            "operation": "plus",
-            "type": "operation",
-          },
-          {
-            "operation": "plus",
-            "type": "operation",
-          },
-          {
-            "operation": "plus",
-            "type": "operation",
-          },
-          {
-            "operation": "plus",
-            "type": "operation",
-          },
-          {
-            "operation": "plus",
-            "type": "operation",
-          },
-          {
-            "operation": "plus",
-            "type": "operation",
-          },
-          {
-            "operation": "plus",
-            "type": "operation",
-          },
-          {
-            "operation": "plus",
-            "type": "operation",
-          },
-          {
-            "operation": "plus",
-            "type": "operation",
-          },
-          {
-            "punctuation": "dot",
-            "type": "punctuation",
-          },
-          {
-            "operations": [
-              {
-                "operation": "minus",
-                "type": "operation",
-              },
-            ],
-            "type": "bracket",
-          },
-        ],
-        "type": "bracket",
-      },
-      {
-        "direction": "left",
-        "type": "arrow",
-      },
-      {
-        "operations": [
-          {
-            "direction": "right",
-            "type": "arrow",
-          },
-          {
-            "operation": "plus",
-            "type": "operation",
-          },
-          {
-            "direction": "right",
-            "type": "arrow",
-          },
-          {
-            "operation": "plus",
-            "type": "operation",
-          },
-          {
-            "direction": "left",
-            "type": "arrow",
-          },
-          {
-            "direction": "left",
-            "type": "arrow",
-          },
-          {
-            "operation": "minus",
-            "type": "operation",
-          },
-        ],
-        "type": "bracket",
-      },
-      {
-        "direction": "right",
-        "type": "arrow",
-      },
-      {
-        "direction": "right",
-        "type": "arrow",
-      },
-      {
-        "operations": [
-          {
-            "operation": "minus",
-            "type": "operation",
-          },
-          {
-            "direction": "left",
-            "type": "arrow",
-          },
-          {
-            "direction": "left",
-            "type": "arrow",
-          },
-          {
-            "operation": "plus",
-            "type": "operation",
-          },
-          {
-            "direction": "right",
-            "type": "arrow",
-          },
-          {
-            "direction": "right",
-            "type": "arrow",
-          },
-        ],
-        "type": "bracket",
-      },
-      {
-        "operation": "plus",
-        "type": "operation",
-      },
-      {
-        "operation": "plus",
-        "type": "operation",
-      },
-      {
-        "operation": "plus",
-        "type": "operation",
-      },
-      {
-        "direction": "right",
-        "type": "arrow",
-      },
-      {
-        "operation": "plus",
-        "type": "operation",
-      },
-      {
-        "direction": "left",
-        "type": "arrow",
-      },
-      {
-        "operations": [
-          {
-            "operation": "minus",
-            "type": "operation",
-          },
-          {
-            "direction": "left",
-            "type": "arrow",
-          },
-          {
-            "operation": "minus",
-            "type": "operation",
-          },
-          {
-            "direction": "right",
-            "type": "arrow",
-          },
-        ],
-        "type": "bracket",
-      },
-      {
-        "direction": "left",
-        "type": "arrow",
-      },
-      {
-        "operations": [
-          {
-            "operations": [
-              {
-                "operation": "minus",
-                "type": "operation",
-              },
-            ],
-            "type": "bracket",
-          },
-          {
-            "direction": "right",
-            "type": "arrow",
-          },
-          {
-            "direction": "right",
-            "type": "arrow",
-          },
-          {
-            "operation": "minus",
-            "type": "operation",
-          },
-          {
-            "direction": "left",
-            "type": "arrow",
-          },
-          {
-            "direction": "left",
-            "type": "arrow",
-          },
-        ],
-        "type": "bracket",
-      },
-      {
-        "direction": "right",
-        "type": "arrow",
-      },
-      {
-        "direction": "right",
-        "type": "arrow",
-      },
-      {
-        "operations": [
-          {
-            "operations": [
-              {
-                "operation": "minus",
-                "type": "operation",
-              },
-            ],
-            "type": "bracket",
-          },
-          {
-            "direction": "left",
-            "type": "arrow",
-          },
-          {
-            "direction": "left",
-            "type": "arrow",
-          },
-          {
-            "operation": "plus",
-            "type": "operation",
-          },
-          {
-            "direction": "right",
-            "type": "arrow",
-          },
-          {
-            "direction": "right",
-            "type": "arrow",
-          },
-        ],
-        "type": "bracket",
-      },
-      {
-        "direction": "left",
-        "type": "arrow",
-      },
-      {
-        "direction": "left",
-        "type": "arrow",
-      },
-      {
-        "operations": [
-          {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -4909,6 +4635,280 @@
             "type": "punctuation",
           },
           {
+            "instructions": [
+              {
+                "operation": "minus",
+                "type": "operation",
+              },
+            ],
+            "type": "bracket",
+          },
+        ],
+        "type": "bracket",
+      },
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "instructions": [
+          {
+            "direction": "right",
+            "type": "arrow",
+          },
+          {
+            "operation": "plus",
+            "type": "operation",
+          },
+          {
+            "direction": "right",
+            "type": "arrow",
+          },
+          {
+            "operation": "plus",
+            "type": "operation",
+          },
+          {
+            "direction": "left",
+            "type": "arrow",
+          },
+          {
+            "direction": "left",
+            "type": "arrow",
+          },
+          {
+            "operation": "minus",
+            "type": "operation",
+          },
+        ],
+        "type": "bracket",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "instructions": [
+          {
+            "operation": "minus",
+            "type": "operation",
+          },
+          {
+            "direction": "left",
+            "type": "arrow",
+          },
+          {
+            "direction": "left",
+            "type": "arrow",
+          },
+          {
+            "operation": "plus",
+            "type": "operation",
+          },
+          {
+            "direction": "right",
+            "type": "arrow",
+          },
+          {
+            "direction": "right",
+            "type": "arrow",
+          },
+        ],
+        "type": "bracket",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "instructions": [
+          {
+            "operation": "minus",
+            "type": "operation",
+          },
+          {
+            "direction": "left",
+            "type": "arrow",
+          },
+          {
+            "operation": "minus",
+            "type": "operation",
+          },
+          {
+            "direction": "right",
+            "type": "arrow",
+          },
+        ],
+        "type": "bracket",
+      },
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "instructions": [
+          {
+            "instructions": [
+              {
+                "operation": "minus",
+                "type": "operation",
+              },
+            ],
+            "type": "bracket",
+          },
+          {
+            "direction": "right",
+            "type": "arrow",
+          },
+          {
+            "direction": "right",
+            "type": "arrow",
+          },
+          {
+            "operation": "minus",
+            "type": "operation",
+          },
+          {
+            "direction": "left",
+            "type": "arrow",
+          },
+          {
+            "direction": "left",
+            "type": "arrow",
+          },
+        ],
+        "type": "bracket",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "instructions": [
+          {
+            "instructions": [
+              {
+                "operation": "minus",
+                "type": "operation",
+              },
+            ],
+            "type": "bracket",
+          },
+          {
+            "direction": "left",
+            "type": "arrow",
+          },
+          {
+            "direction": "left",
+            "type": "arrow",
+          },
+          {
+            "operation": "plus",
+            "type": "operation",
+          },
+          {
+            "direction": "right",
+            "type": "arrow",
+          },
+          {
+            "direction": "right",
+            "type": "arrow",
+          },
+        ],
+        "type": "bracket",
+      },
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "instructions": [
+          {
+            "instructions": [
+              {
+                "operation": "minus",
+                "type": "operation",
+              },
+            ],
+            "type": "bracket",
+          },
+          {
+            "operation": "plus",
+            "type": "operation",
+          },
+          {
+            "operation": "plus",
+            "type": "operation",
+          },
+          {
+            "operation": "plus",
+            "type": "operation",
+          },
+          {
+            "operation": "plus",
+            "type": "operation",
+          },
+          {
+            "operation": "plus",
+            "type": "operation",
+          },
+          {
+            "operation": "plus",
+            "type": "operation",
+          },
+          {
+            "operation": "plus",
+            "type": "operation",
+          },
+          {
+            "operation": "plus",
+            "type": "operation",
+          },
+          {
+            "operation": "plus",
+            "type": "operation",
+          },
+          {
+            "operation": "plus",
+            "type": "operation",
+          },
+          {
+            "punctuation": "dot",
+            "type": "punctuation",
+          },
+          {
             "direction": "right",
             "type": "arrow",
           },
@@ -4949,7 +4949,7 @@
             "type": "operation",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "direction": "right",
                 "type": "arrow",
@@ -5186,7 +5186,7 @@
             "type": "operation",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "direction": "right",
                 "type": "arrow",
@@ -5791,7 +5791,7 @@
             "type": "operation",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "direction": "right",
                 "type": "arrow",
@@ -5976,7 +5976,7 @@
             "type": "operation",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "direction": "right",
                 "type": "arrow",
@@ -6221,7 +6221,7 @@
             "type": "punctuation",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -6234,7 +6234,7 @@
             "type": "arrow",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -6259,7 +6259,7 @@
             "type": "punctuation",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -6275,7 +6275,7 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
             "direction": "right",
             "type": "arrow",
@@ -6316,7 +6316,7 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
             "operation": "minus",
             "type": "operation",
@@ -6373,7 +6373,7 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
             "operation": "minus",
             "type": "operation",
@@ -6398,9 +6398,9 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -6440,9 +6440,9 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -6482,9 +6482,9 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -6537,7 +6537,7 @@
             "type": "punctuation",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -6550,7 +6550,7 @@
             "type": "arrow",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",

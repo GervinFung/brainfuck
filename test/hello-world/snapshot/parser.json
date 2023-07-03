@@ -40,7 +40,7 @@
     "type": "operation",
   },
   {
-    "operations": [
+    "instructions": [
       {
         "direction": "right",
         "type": "arrow",

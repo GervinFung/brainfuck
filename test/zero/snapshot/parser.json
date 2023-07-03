@@ -1,206 +1,14 @@
 [
   {
-    "operations": [],
+    "instructions": [],
     "type": "bracket",
   },
   {
-    "operations": [],
+    "instructions": [],
     "type": "bracket",
   },
   {
-    "operations": [],
-    "type": "bracket",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operation": "plus",
-    "type": "operation",
-  },
-  {
-    "operations": [],
+    "instructions": [],
     "type": "bracket",
   },
   {
@@ -208,13 +16,205 @@
     "type": "operation",
   },
   {
-    "operations": [
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "instructions": [],
+    "type": "bracket",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "instructions": [
       {
-        "operations": [],
+        "instructions": [],
         "type": "bracket",
       },
       {
-        "operations": [],
+        "instructions": [],
         "type": "bracket",
       },
     ],

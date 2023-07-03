@@ -32,7 +32,7 @@
     "type": "operation",
   },
   {
-    "operations": [
+    "instructions": [
       {
         "direction": "right",
         "type": "arrow",
@@ -85,7 +85,7 @@
     "type": "arrow",
   },
   {
-    "operations": [
+    "instructions": [
       {
         "direction": "left",
         "type": "arrow",
@@ -126,7 +126,7 @@
     "type": "arrow",
   },
   {
-    "operations": [
+    "instructions": [
       {
         "direction": "right",
         "type": "arrow",
@@ -140,7 +140,7 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
             "direction": "right",
             "type": "arrow",
@@ -177,7 +177,7 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
             "direction": "left",
             "type": "arrow",
@@ -230,7 +230,7 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
             "direction": "right",
             "type": "arrow",
@@ -287,7 +287,7 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
             "direction": "right",
             "type": "arrow",
@@ -333,7 +333,7 @@
             "type": "operation",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "direction": "right",
                 "type": "arrow",
@@ -390,7 +390,7 @@
             "type": "punctuation",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -407,7 +407,7 @@
             "type": "arrow",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -435,7 +435,7 @@
         "type": "arrow",
       },
       {
-        "operations": [
+        "instructions": [
           {
             "direction": "right",
             "type": "arrow",
@@ -473,7 +473,7 @@
             "type": "operation",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "direction": "right",
                 "type": "arrow",
@@ -550,7 +550,7 @@
             "type": "punctuation",
           },
           {
-            "operations": [
+            "instructions": [
               {
                 "operation": "minus",
                 "type": "operation",
@@ -585,7 +585,7 @@
     "type": "arrow",
   },
   {
-    "operations": [
+    "instructions": [
       {
         "direction": "right",
         "type": "arrow",
@@ -623,7 +623,7 @@
         "type": "operation",
       },
       {
-        "operations": [
+        "instructions": [
           {
             "direction": "right",
             "type": "arrow",
@@ -676,7 +676,7 @@
         "type": "punctuation",
       },
       {
-        "operations": [
+        "instructions": [
           {
             "operation": "minus",
             "type": "operation",
@@ -748,7 +748,7 @@
     "type": "operation",
   },
   {
-    "operations": [
+    "instructions": [
       {
         "direction": "right",
         "type": "arrow",
@@ -1077,9 +1077,9 @@
     "type": "punctuation",
   },
   {
-    "operations": [
+    "instructions": [
       {
-        "operations": [
+        "instructions": [
           {
             "operation": "minus",
             "type": "operation",
