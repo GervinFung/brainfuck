@@ -4,13 +4,14 @@
     "version": "1.5.1",
     "license": "MIT",
     "scripts": {
-        "lint": "eslint --ignore-path .gitignore src test -f='stylish' --color",
+        "lint": "pnpm vite-node script/lint.ts",
         "format": "prettier --ignore-path .gitignore --write src test/**/*.ts",
         "format-check": "prettier --ignore-path .gitignore --check src test/**/*.ts",
         "test": "vitest"
     },
     "devDependencies": {
         "@poolofdeath20/eslint-config": "^0.1.0",
+        "@types/eslint": "^8.40.2",
         "@types/node": "^20.2.3",
         "@typescript-eslint/eslint-plugin": "^5.59.9",
         "@typescript-eslint/parser": "^5.59.9",

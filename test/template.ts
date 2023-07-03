@@ -1,5 +1,5 @@
 import fs from 'fs';
-import path from "path"
+import path from 'path';
 import { describe, expect, it } from 'vitest';
 import TokensGenerator from '../src/tokens/tokenizer';
 import Optimizer from '../src/optimizer';
@@ -8,11 +8,11 @@ import InterpreterRunner from '../src/interpreter/runner';
 
 const template = (
     param: Readonly<{
-        dirName: string
+        dirName: string;
     }>
 ) =>
     describe('Tokens Generator -> Constant Folder -> Node -> Interpreter', () => {
-        const testFileName = param.dirName.split(path.sep).at(-1)
+        const testFileName = param.dirName.split(path.sep).at(-1);
 
         const code = fs.readFileSync(
             path.join('test', 'codes', `${testFileName}.bf`),
@@ -22,7 +22,8 @@ const template = (
         );
 
         describe('On the fly interpreter', () => {
-            const join = (...paths: ReadonlyArray<string>) => path.join('snapshot', ...paths)
+            const join = (...paths: ReadonlyArray<string>) =>
+                path.join('snapshot', ...paths);
 
             it(`should tokenize, constant fold, generate node and interpret "${testFileName}" code`, async () => {
                 const tokens = new TokensGenerator(code).generate();
