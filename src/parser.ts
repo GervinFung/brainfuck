@@ -36,11 +36,14 @@ export default class Parser {
         private readonly tokens: ReturnType<TokensGenerator['generate']>
     ) {}
 
-    private readonly firstToken = () =>
-        guard({
+    private readonly firstToken = () => {
+        return guard({
             value: this.tokens.at(0),
-            error: () => new Error('There should be at least one token'),
+            error: () => {
+                return new Error('There should be at least one token');
+            },
         });
+    };
 
     private readonly removeUsedTokens = (end: number) => {
         return {
@@ -67,11 +70,13 @@ export default class Parser {
             pairID: number;
         }>
     ): BracketNode => {
-        const matcingBracketPair = this.tokens.flatMap((token, index) =>
-            !(token.type === 'bracket' && token.pairID === leftBracket.pairID)
+        const matcingBracketPair = this.tokens.flatMap((token, index) => {
+            return !(
+                token.type === 'bracket' && token.pairID === leftBracket.pairID
+            )
                 ? []
-                : [{ ...token, index }]
-        );
+                : [{ ...token, index }];
+        });
 
         if (matcingBracketPair.length !== 2) {
             throw new Error(
@@ -81,7 +86,9 @@ export default class Parser {
 
         const right = guard({
             value: matcingBracketPair.at(1),
-            error: () => new Error('There should be matching right bracket'),
+            error: () => {
+                return new Error('There should be matching right bracket');
+            },
         });
 
         const result = this.removeUsedTokens(right.index + 1);

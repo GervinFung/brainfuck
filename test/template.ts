@@ -11,7 +11,7 @@ const template = (
         dirName: string;
     }>
 ) =>
-    describe('Tokens Generator -> Constant Folder -> Node -> Interpreter', () => {
+    {return describe('Tokens Generator -> Constant Folder -> Node -> Interpreter', () => {
         const testFileName = param.dirName.split(path.sep).at(-1);
 
         const code = fs.readFileSync(
@@ -23,7 +23,7 @@ const template = (
 
         describe('On the fly interpreter', () => {
             const join = (...paths: ReadonlyArray<string>) =>
-                path.join('snapshot', ...paths);
+                {return path.join('snapshot', ...paths);};
 
             it(`should tokenize, constant fold, generate node and interpret "${testFileName}" code`, async () => {
                 const tokens = new TokensGenerator(code).generate();
@@ -39,6 +39,6 @@ const template = (
                 expect(result).toMatchFileSnapshot(join('result'));
             });
         });
-    });
+    });};
 
 export default template;

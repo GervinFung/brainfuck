@@ -69,10 +69,12 @@ type MutableGenerated = Mutable<Generated>;
 export default class Optimizer {
     constructor(private readonly nodes: Nodes) {}
 
-    private readonly fuseAllMovements = (nodes: NegatedNodes): FusedMovements =>
-        nodes.reduce((fusedMovements, node) => {
-            const operation = (): FusedMovement =>
-                type === 'arrow'
+    private readonly fuseAllMovements = (
+        nodes: NegatedNodes
+    ): FusedMovements => {
+        return nodes.reduce((fusedMovements, node) => {
+            const operation = (): FusedMovement => {
+                return type === 'arrow'
                     ? {
                           type,
                           index: node.index,
@@ -97,6 +99,7 @@ export default class Optimizer {
                           type,
                           operations: this.fuseAllMovements(node.nodes),
                       };
+            };
 
             const { type } = node;
 
@@ -157,9 +160,10 @@ export default class Optimizer {
                 }
             });
         }, [] as FusedMovements);
+    };
 
-    private readonly negate = (nodes: Nodes): NegatedNodes =>
-        nodes.map((node) => {
+    private readonly negate = (nodes: Nodes): NegatedNodes => {
+        return nodes.map((node) => {
             const { type } = node;
             switch (type) {
                 case 'operation': {
@@ -183,11 +187,12 @@ export default class Optimizer {
             }
             return node;
         });
+    };
 
     private readonly compoundArrowAndOperationMovement = (
         fusedMovements: FusedMovements
-    ): CompoundMovements =>
-        fusedMovements.reduce((compoundMovements, movement) => {
+    ): CompoundMovements => {
+        return fusedMovements.reduce((compoundMovements, movement) => {
             if (!compoundMovements.length) {
                 return [movement];
             }
@@ -201,10 +206,11 @@ export default class Optimizer {
             }
             const previousMovement = guard({
                 value: compoundMovements.at(-1),
-                error: () =>
-                    new Error(
+                error: () => {
+                    return new Error(
                         'There should be at least one movement in compoundMovements'
-                    ),
+                    );
+                },
             });
             if (
                 previousMovement.type === 'arrow' &&
@@ -218,6 +224,7 @@ export default class Optimizer {
             }
             return compoundMovements.concat(movement);
         }, [] as CompoundMovements);
+    };
 
     private readonly redundantMoveElimination = (nodes: Nodes): Nodes => {
         const redundantBrackets = nodes.reduce(
@@ -252,12 +259,13 @@ export default class Optimizer {
         return redundantBrackets;
     };
 
-    readonly generate = () =>
-        this.compoundArrowAndOperationMovement(
+    readonly generate = () => {
+        return this.compoundArrowAndOperationMovement(
             this.fuseAllMovements(
                 this.negate(this.redundantMoveElimination(this.nodes))
             )
         );
+    };
 }
 
 export type { Generated, MutableGenerated };

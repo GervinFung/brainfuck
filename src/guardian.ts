@@ -11,11 +11,17 @@ export default class Guardian {
         } as const;
     }
 
-    readonly pointerWithinRange = (pointer: number) => pointer >= 0;
+    readonly pointerWithinRange = (pointer: number) => {
+        return pointer >= 0;
+    };
 
-    readonly getRangeMax = () => this.range.max;
+    readonly getRangeMax = () => {
+        return this.range.max;
+    };
 
-    readonly getRangeMin = () => this.range.min;
+    readonly getRangeMin = () => {
+        return this.range.min;
+    };
 
     readonly memoryBlock = (
         param: Readonly<{
@@ -27,8 +33,9 @@ export default class Guardian {
             return param.memoryBlock;
         }
 
-        const grownLength = (length: number): number =>
-            length > param.pointer ? length : grownLength(length * 2);
+        const grownLength = (length: number): number => {
+            return length > param.pointer ? length : grownLength(length * 2);
+        };
 
         const memoryBlock = new Uint8Array(
             grownLength(param.memoryBlock.length)
