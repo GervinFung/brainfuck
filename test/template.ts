@@ -5,17 +5,20 @@ import TokensGenerator from '../src/tokens/tokenizer';
 import Optimizer from '../src/optimizer';
 import Parser from '../src/parser';
 import InterpreterRunner from '../src/interpreter/runner';
+import type { CellSize } from '../src/memory';
 
 const template = (
     param: Readonly<{
         dirName: string;
+        codeName?: string;
+        cellSize?: CellSize;
     }>
 ) => {
     return describe('Tokens Generator -> Constant Folder -> Node -> Interpreter', () => {
         const testFileName = param.dirName.split(path.sep).at(-1);
 
         const code = fs.readFileSync(
-            path.join('test', 'codes', `${testFileName}.bf`),
+            path.join('test', 'codes', `${param.codeName ?? testFileName}.bf`),
             {
                 encoding: 'utf-8',
             }
@@ -36,7 +39,9 @@ const template = (
                 const optimized = new Optimizer(nodes).generate();
                 expect(optimized).toMatchFileSnapshot(join('optimized.json'));
 
-                const result = await new InterpreterRunner(optimized).run();
+                const result = await new InterpreterRunner(optimized, {
+                    cellSize: param.cellSize,
+                }).run();
                 expect(result).toMatchFileSnapshot(join('result'));
             });
         });
