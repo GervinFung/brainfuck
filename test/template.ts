@@ -12,6 +12,7 @@ const template = (
         dirName: string;
         codeName?: string;
         cellSize?: CellSize;
+        input?: string;
     }>
 ) => {
     return describe('Tokens Generator -> Constant Folder -> Node -> Interpreter', () => {
@@ -41,6 +42,7 @@ const template = (
 
                 const result = await new InterpreterRunner(optimized, {
                     cellSize: param.cellSize,
+                    input: param.input,
                 }).run();
                 expect(result).toMatchFileSnapshot(join('result'));
             });

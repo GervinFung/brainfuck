@@ -1,0 +1,106 @@
+[
+  {
+    "index": 1,
+    "type": "arrow",
+  },
+  {
+    "punctuation": "comma",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "index": 1,
+    "type": "arrow-operation",
+    "value": 9,
+  },
+  {
+    "punctuation": "comma",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "index": 1,
+    "type": "arrow-operation",
+    "value": 11,
+  },
+  {
+    "operations": [
+      {
+        "index": -1,
+        "type": "arrow-operation",
+        "value": 6,
+      },
+      {
+        "index": -1,
+        "type": "arrow-operation",
+        "value": 6,
+      },
+      {
+        "index": -1,
+        "type": "arrow-operation",
+        "value": 1,
+      },
+      {
+        "index": 3,
+        "type": "arrow-operation",
+        "value": -1,
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "index": -2,
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "index": 1,
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "index": -2,
+    "type": "arrow-operation",
+    "value": -1,
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "index": 1,
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "index": 1,
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "index": -2,
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+]
