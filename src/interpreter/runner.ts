@@ -1,17 +1,22 @@
 import readline from 'readline';
 import Guardian from '../guardian';
+import MemoryBlock, { type CellSize } from '../memory';
 import { guard } from '../type';
 import type { Generated, MutableGenerated } from '../optimizer';
 
 export default class InterpreterRunner {
-    constructor(private readonly nodes: Generated) {}
+    constructor(
+        private readonly nodes: Generated,
+        private readonly options?: Readonly<{
+            cellSize?: CellSize;
+        }>
+    ) {}
 
     private readonly operation = (
         value: number,
         param: Parameters<InterpreterRunner['execute']>[0]
     ) => {
-        param.memoryBlock[param.pointer] =
-            (param.memoryBlock.at(param.pointer) ?? 0) + value;
+        param.memoryBlock.add(param.pointer, value);
     };
 
     private readonly arrow = (
@@ -24,16 +29,13 @@ export default class InterpreterRunner {
                 `Memory pointer of ${param.pointer} is out of range`
             );
         }
-        param.memoryBlock = param.guardian.memoryBlock({
-            pointer: param.pointer,
-            memoryBlock: param.memoryBlock,
-        });
+        param.memoryBlock = param.memoryBlock.grow(param.pointer);
     };
 
     private readonly execute = async (param: {
         pointer: number;
         result: Array<Uint8Array>;
-        memoryBlock: Uint8Array;
+        memoryBlock: MemoryBlock;
         copyNodes: MutableGenerated;
         guardian: Guardian;
     }) => {
@@ -46,7 +48,7 @@ export default class InterpreterRunner {
             });
             switch (node.type) {
                 case 'clear-loop': {
-                    param.memoryBlock[param.pointer] = 0;
+                    param.memoryBlock.clear(param.pointer);
                     break;
                 }
                 case 'operation': {
@@ -67,7 +69,7 @@ export default class InterpreterRunner {
                         ...param,
                         copyNodes: node.operations as MutableGenerated,
                     };
-                    while (tempParam.memoryBlock.at(tempParam.pointer)) {
+                    while (!tempParam.memoryBlock.isZero(tempParam.pointer)) {
                         const bracket = await this.execute(tempParam);
                         tempParam = {
                             ...bracket,
@@ -84,10 +86,8 @@ export default class InterpreterRunner {
                             param.result.push(
                                 new Uint8Array(
                                     Array.from({ length: node.repeat }, () => {
-                                        return (
-                                            param.memoryBlock.at(
-                                                param.pointer
-                                            ) ?? 0
+                                        return param.memoryBlock.byte(
+                                            param.pointer
                                         );
                                     })
                                 )
@@ -137,9 +137,10 @@ export default class InterpreterRunner {
                                             });
                                             if (response.isOk) {
                                                 io.close();
-                                                param.memoryBlock[
-                                                    param.pointer
-                                                ] = response.decimal;
+                                                param.memoryBlock.set(
+                                                    param.pointer,
+                                                    response.decimal
+                                                );
                                             }
                                         }
                                     }
@@ -157,10 +158,13 @@ export default class InterpreterRunner {
     readonly run = async () => {
         const param = await this.execute({
             pointer: 0,
-            guardian: new Guardian(),
+            guardian: new Guardian(this.options?.cellSize),
             copyNodes: this.nodes.slice(),
             result: [] as Array<Uint8Array>,
-            memoryBlock: new Uint8Array(30_000),
+            memoryBlock: MemoryBlock.create({
+                cellSize: this.options?.cellSize ?? 8,
+                length: 30_000,
+            }),
         });
 
         return Array.from(param.result)
