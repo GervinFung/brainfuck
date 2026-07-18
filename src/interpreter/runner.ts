@@ -10,7 +10,8 @@ export default class InterpreterRunner {
         value: number,
         param: Parameters<InterpreterRunner['execute']>[0]
     ) => {
-        param.memoryBlock[param.pointer] += value;
+        param.memoryBlock[param.pointer] =
+            (param.memoryBlock.at(param.pointer) ?? 0) + value;
     };
 
     private readonly arrow = (
@@ -18,6 +19,11 @@ export default class InterpreterRunner {
         param: Parameters<InterpreterRunner['execute']>[0]
     ) => {
         param.pointer += index;
+        if (!param.guardian.pointerWithinRange(param.pointer)) {
+            throw new Error(
+                `Memory pointer of ${param.pointer} is out of range`
+            );
+        }
         param.memoryBlock = param.guardian.memoryBlock({
             pointer: param.pointer,
             memoryBlock: param.memoryBlock,
@@ -66,6 +72,7 @@ export default class InterpreterRunner {
                             copyNodes: node.operations as MutableGenerated,
                         };
                     }
+                    param.pointer = tempParam.pointer;
                     param.memoryBlock = tempParam.memoryBlock;
                     break;
                 }

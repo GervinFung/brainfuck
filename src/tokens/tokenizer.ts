@@ -74,19 +74,25 @@ export default class Tokenizer {
             token.type !== 'bracket' ? [] : [token]
         );
 
+        const leftBrackets = brackets.filter(
+            (token) => token.direction === 'left'
+        );
+
+        const rightBrackets = brackets.filter(
+            (token) => token.direction === 'right'
+        );
+
         if (
-            !brackets
-                .filter((token) => token.direction === 'left')
-                .every((leftToken) =>
-                    Boolean(
-                        brackets.find(
-                            (rightToken) =>
-                                rightToken.pairID === leftToken.pairID
-                        )
+            leftBrackets.length !== rightBrackets.length ||
+            !leftBrackets.every((leftToken) =>
+                Boolean(
+                    rightBrackets.find(
+                        (rightToken) => rightToken.pairID === leftToken.pairID
                     )
                 )
+            )
         ) {
-            throw new Error(`Number of brackets in code doen't match`);
+            throw new Error(`Number of brackets in code doesn't match`);
         }
 
         return tokens;

@@ -225,11 +225,7 @@ export default class Optimizer {
                 switch (node.type) {
                     case 'bracket': {
                         const previousNode = oldNodes[index - 1];
-                        const nextNode = oldNodes[index + 1];
-                        if (
-                            previousNode?.type === 'bracket' ||
-                            nextNode?.type === 'bracket'
-                        ) {
+                        if (previousNode?.type === 'bracket') {
                             return nodes;
                         }
 

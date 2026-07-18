@@ -1,21 +1,17 @@
 export default class Guardian {
-    private readonly maxMemoryBlock: number;
-
     private readonly range: Readonly<{
         min: 0;
         max: 255;
     }>;
 
     constructor() {
-        this.maxMemoryBlock = 30_000;
         this.range = {
             min: 0,
             max: 255,
         } as const;
     }
 
-    readonly pointerWithinRange = (pointer: number) =>
-        pointer >= 0 && pointer <= this.maxMemoryBlock;
+    readonly pointerWithinRange = (pointer: number) => pointer >= 0;
 
     readonly getRangeMax = () => this.range.max;
 
@@ -27,14 +23,17 @@ export default class Guardian {
             memoryBlock: Uint8Array;
         }>
     ) => {
-        if (param.pointer <= param.memoryBlock.length) {
+        if (param.pointer < param.memoryBlock.length) {
             return param.memoryBlock;
         }
 
-        const oldMemoryBlock = param.memoryBlock;
+        const grownLength = (length: number): number =>
+            length > param.pointer ? length : grownLength(length * 2);
 
-        const memoryBlock = new Uint8Array(param.memoryBlock.length * 2);
-        memoryBlock.set(oldMemoryBlock);
+        const memoryBlock = new Uint8Array(
+            grownLength(param.memoryBlock.length)
+        );
+        memoryBlock.set(param.memoryBlock);
 
         return memoryBlock;
     };
