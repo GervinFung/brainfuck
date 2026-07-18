@@ -1,14 +1,16 @@
+import type { CellSize } from './memory';
+
 export default class Guardian {
     private readonly range: Readonly<{
-        min: 0;
-        max: 255;
+        min: number;
+        max: number;
     }>;
 
-    constructor() {
+    constructor(cellSize: CellSize = 8) {
         this.range = {
             min: 0,
-            max: 255,
-        } as const;
+            max: 2 ** cellSize - 1,
+        };
     }
 
     readonly pointerWithinRange = (pointer: number) => {
@@ -21,27 +23,5 @@ export default class Guardian {
 
     readonly getRangeMin = () => {
         return this.range.min;
-    };
-
-    readonly memoryBlock = (
-        param: Readonly<{
-            pointer: number;
-            memoryBlock: Uint8Array;
-        }>
-    ) => {
-        if (param.pointer < param.memoryBlock.length) {
-            return param.memoryBlock;
-        }
-
-        const grownLength = (length: number): number => {
-            return length > param.pointer ? length : grownLength(length * 2);
-        };
-
-        const memoryBlock = new Uint8Array(
-            grownLength(param.memoryBlock.length)
-        );
-        memoryBlock.set(param.memoryBlock);
-
-        return memoryBlock;
     };
 }
