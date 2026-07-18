@@ -1,0 +1,30 @@
+[
+  {
+    "type": "operation",
+    "value": 9,
+  },
+  {
+    "operations": [
+      {
+        "index": 1,
+        "type": "arrow-operation",
+        "value": 8,
+      },
+      {
+        "index": -1,
+        "type": "arrow-operation",
+        "value": -1,
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "index": 1,
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+]

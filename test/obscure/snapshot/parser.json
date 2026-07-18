@@ -1,0 +1,272 @@
+[
+  {
+    "instructions": [],
+    "type": "bracket",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "operation": "plus",
+    "type": "operation",
+  },
+  {
+    "instructions": [
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "instructions": [
+          {
+            "direction": "left",
+            "type": "arrow",
+          },
+          {
+            "direction": "left",
+            "type": "arrow",
+          },
+          {
+            "operation": "plus",
+            "type": "operation",
+          },
+          {
+            "direction": "left",
+            "type": "arrow",
+          },
+          {
+            "operation": "plus",
+            "type": "operation",
+          },
+          {
+            "operation": "plus",
+            "type": "operation",
+          },
+          {
+            "operation": "plus",
+            "type": "operation",
+          },
+          {
+            "direction": "right",
+            "type": "arrow",
+          },
+          {
+            "direction": "right",
+            "type": "arrow",
+          },
+          {
+            "direction": "right",
+            "type": "arrow",
+          },
+          {
+            "operation": "minus",
+            "type": "operation",
+          },
+        ],
+        "type": "bracket",
+      },
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "operation": "minus",
+        "type": "operation",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "instructions": [
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "instructions": [
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "direction": "left",
+    "type": "arrow",
+  },
+  {
+    "instructions": [
+      {
+        "direction": "right",
+        "type": "arrow",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "operation": "plus",
+        "type": "operation",
+      },
+      {
+        "direction": "left",
+        "type": "arrow",
+      },
+      {
+        "instructions": [
+          {
+            "operation": "minus",
+            "type": "operation",
+          },
+        ],
+        "type": "bracket",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+  {
+    "direction": "right",
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "type": "punctuation",
+  },
+]
