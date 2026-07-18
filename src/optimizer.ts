@@ -114,7 +114,11 @@ export default class Optimizer {
 
             if (
                 previousElement.type !== node.type ||
-                (previousElement.type === node.type && node.type === 'bracket')
+                (previousElement.type === node.type &&
+                    node.type === 'bracket') ||
+                (previousElement.type === 'punctuation' &&
+                    node.type === 'punctuation' &&
+                    previousElement.punctuation !== node.punctuation)
             ) {
                 return fusedMovements.concat(operation());
             }

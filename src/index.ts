@@ -8,7 +8,8 @@ const Brainfuck = {
     execute: async (
         code: string,
         options?: Readonly<{
-            cellSize: CellSize;
+            cellSize?: CellSize;
+            input?: string;
         }>
     ) => {
         const tokens = new Tokenizer(code).generate();
