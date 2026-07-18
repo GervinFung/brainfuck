@@ -1,0 +1,103 @@
+[
+  {
+    "type": "operation",
+    "value": 10,
+  },
+  {
+    "operations": [
+      {
+        "index": 2,
+        "type": "arrow-operation",
+        "value": 1,
+      },
+      {
+        "index": 1,
+        "type": "arrow-operation",
+        "value": 1,
+      },
+      {
+        "index": 1,
+        "type": "arrow-operation",
+        "value": 6,
+      },
+      {
+        "operations": [
+          {
+            "index": -2,
+            "type": "arrow-operation",
+            "value": 1,
+          },
+          {
+            "index": -1,
+            "type": "arrow-operation",
+            "value": 3,
+          },
+          {
+            "index": 3,
+            "type": "arrow-operation",
+            "value": -1,
+          },
+        ],
+        "type": "bracket",
+      },
+      {
+        "index": -4,
+        "type": "arrow-operation",
+        "value": -1,
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "index": 1,
+    "type": "arrow",
+  },
+  {
+    "operations": [
+      {
+        "index": 2,
+        "type": "arrow",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "index": -4,
+    "type": "arrow",
+  },
+  {
+    "operations": [
+      {
+        "index": 1,
+        "type": "arrow-operation",
+        "value": 2,
+      },
+      {
+        "index": -1,
+        "type": "arrow",
+      },
+      {
+        "type": "clear-loop",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "index": 1,
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+  {
+    "index": 1,
+    "type": "arrow",
+  },
+  {
+    "punctuation": "dot",
+    "repeat": 1,
+    "type": "punctuation",
+  },
+]

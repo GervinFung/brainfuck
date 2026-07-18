@@ -3,11 +3,17 @@ import Tokenize from './tokenize';
 class BracketIndexStack {
     constructor(private readonly store: number[]) {}
 
-    readonly last = () => this.store.at(-1) ?? -1;
+    readonly last = () => {
+        return this.store.at(-1) ?? -1;
+    };
 
-    readonly push = (t: number) => new BracketIndexStack(this.store.concat(t));
+    readonly push = (t: number) => {
+        return new BracketIndexStack(this.store.concat(t));
+    };
 
-    readonly pop = () => new BracketIndexStack(this.store.slice(0, -1));
+    readonly pop = () => {
+        return new BracketIndexStack(this.store.slice(0, -1));
+    };
 }
 
 export default class Tokenizer {
@@ -19,8 +25,12 @@ export default class Tokenizer {
 
     readonly generate = () => {
         const oldTokens = this.charactersFromCode
-            .map((character) => new Tokenize(character).token())
-            .flatMap((token) => (token.type === 'comment' ? [] : [token]));
+            .map((character) => {
+                return new Tokenize(character).token();
+            })
+            .flatMap((token) => {
+                return token.type === 'comment' ? [] : [token];
+            });
 
         type Tokens = ReadonlyArray<
             | Exclude<
@@ -38,11 +48,12 @@ export default class Tokenizer {
             ({ tokens, bracketStack }, token) => {
                 switch (token.type) {
                     case 'bracket': {
-                        const { length } = tokens.filter(
-                            (token) =>
+                        const { length } = tokens.filter((token) => {
+                            return (
                                 token.type === 'bracket' &&
                                 token.direction === 'left'
-                        );
+                            );
+                        });
                         return {
                             bracketStack:
                                 token.direction === 'right'
@@ -70,23 +81,29 @@ export default class Tokenizer {
             } as const
         );
 
-        const brackets = tokens.flatMap((token) =>
-            token.type !== 'bracket' ? [] : [token]
-        );
+        const brackets = tokens.flatMap((token) => {
+            return token.type !== 'bracket' ? [] : [token];
+        });
+
+        const leftBrackets = brackets.filter((token) => {
+            return token.direction === 'left';
+        });
+
+        const rightBrackets = brackets.filter((token) => {
+            return token.direction === 'right';
+        });
 
         if (
-            !brackets
-                .filter((token) => token.direction === 'left')
-                .every((leftToken) =>
-                    Boolean(
-                        brackets.find(
-                            (rightToken) =>
-                                rightToken.pairID === leftToken.pairID
-                        )
-                    )
-                )
+            leftBrackets.length !== rightBrackets.length ||
+            !leftBrackets.every((leftToken) => {
+                return Boolean(
+                    rightBrackets.find((rightToken) => {
+                        return rightToken.pairID === leftToken.pairID;
+                    })
+                );
+            })
         ) {
-            throw new Error(`Number of brackets in code doen't match`);
+            throw new Error(`Number of brackets in code doesn't match`);
         }
 
         return tokens;

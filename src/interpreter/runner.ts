@@ -10,7 +10,8 @@ export default class InterpreterRunner {
         value: number,
         param: Parameters<InterpreterRunner['execute']>[0]
     ) => {
-        param.memoryBlock[param.pointer] += value;
+        param.memoryBlock[param.pointer] =
+            (param.memoryBlock.at(param.pointer) ?? 0) + value;
     };
 
     private readonly arrow = (
@@ -18,6 +19,11 @@ export default class InterpreterRunner {
         param: Parameters<InterpreterRunner['execute']>[0]
     ) => {
         param.pointer += index;
+        if (!param.guardian.pointerWithinRange(param.pointer)) {
+            throw new Error(
+                `Memory pointer of ${param.pointer} is out of range`
+            );
+        }
         param.memoryBlock = param.guardian.memoryBlock({
             pointer: param.pointer,
             memoryBlock: param.memoryBlock,
@@ -34,7 +40,9 @@ export default class InterpreterRunner {
         while (param.copyNodes.length) {
             const node = guard({
                 value: param.copyNodes.at(0),
-                error: () => new Error('There should be element in the loop'),
+                error: () => {
+                    return new Error('There should be element in the loop');
+                },
             });
             switch (node.type) {
                 case 'clear-loop': {
@@ -66,6 +74,7 @@ export default class InterpreterRunner {
                             copyNodes: node.operations as MutableGenerated,
                         };
                     }
+                    param.pointer = tempParam.pointer;
                     param.memoryBlock = tempParam.memoryBlock;
                     break;
                 }
@@ -74,13 +83,13 @@ export default class InterpreterRunner {
                         case 'dot': {
                             param.result.push(
                                 new Uint8Array(
-                                    Array.from(
-                                        { length: node.repeat },
-                                        () =>
+                                    Array.from({ length: node.repeat }, () => {
+                                        return (
                                             param.memoryBlock.at(
                                                 param.pointer
                                             ) ?? 0
-                                    )
+                                        );
+                                    })
                                 )
                             );
                             break;
@@ -100,8 +109,8 @@ export default class InterpreterRunner {
                                             const response = await new Promise<{
                                                 isOk: true;
                                                 decimal: number;
-                                            }>((resolve) =>
-                                                io.question(
+                                            }>((resolve) => {
+                                                return io.question(
                                                     'Input the decimal value of an ASCII character',
                                                     (input) => {
                                                         const decimal =
@@ -124,8 +133,8 @@ export default class InterpreterRunner {
                                                             `"${input}" is an invalid decimal value of an ASCII character`
                                                         );
                                                     }
-                                                )
-                                            );
+                                                );
+                                            });
                                             if (response.isOk) {
                                                 io.close();
                                                 param.memoryBlock[
@@ -155,7 +164,9 @@ export default class InterpreterRunner {
         });
 
         return Array.from(param.result)
-            .map((result) => String.fromCharCode(...result))
+            .map((result) => {
+                return String.fromCharCode(...result);
+            })
             .join('');
     };
 }
