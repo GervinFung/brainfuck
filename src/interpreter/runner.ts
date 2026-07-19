@@ -2,7 +2,18 @@ import readline from 'readline';
 import Guardian from '../guardian';
 import MemoryBlock, { type CellSize } from '../memory';
 import { guard } from '../type';
-import type { Generated, MutableGenerated } from '../optimizer';
+import type { Generated } from '../optimizer';
+
+type State = {
+    pointer: number;
+    result: Array<Uint8Array>;
+    memoryBlock: MemoryBlock;
+    guardian: Guardian;
+    input: {
+        values: ReadonlyArray<number> | undefined;
+        index: number;
+    };
+};
 
 export default class InterpreterRunner {
     constructor(
@@ -47,99 +58,72 @@ export default class InterpreterRunner {
         }
     };
 
-    private readonly readInput = async (
-        param: Parameters<InterpreterRunner['execute']>[0]
-    ) => {
-        if (!param.input.values) {
-            return this.askForDecimal(param.guardian);
+    private readonly readInput = async (state: State) => {
+        if (!state.input.values) {
+            return this.askForDecimal(state.guardian);
         }
 
-        const value = param.input.values.at(param.input.index);
-        param.input.index += 1;
+        const value = state.input.values.at(state.input.index);
+        state.input.index += 1;
 
         return value;
     };
 
-    private readonly operation = (
-        value: number,
-        param: Parameters<InterpreterRunner['execute']>[0]
-    ) => {
-        param.memoryBlock.add(param.pointer, value);
+    private readonly operation = (value: number, state: State) => {
+        state.memoryBlock.add(state.pointer, value);
     };
 
-    private readonly arrow = (
-        index: number,
-        param: Parameters<InterpreterRunner['execute']>[0]
-    ) => {
-        param.pointer += index;
-        if (!param.guardian.pointerWithinRange(param.pointer)) {
+    private readonly arrow = (index: number, state: State) => {
+        state.pointer += index;
+        if (!state.guardian.pointerWithinRange(state.pointer)) {
             throw new Error(
-                `Memory pointer of ${param.pointer} is out of range`
+                `Memory pointer of ${state.pointer} is out of range`
             );
         }
-        param.memoryBlock = param.memoryBlock.grow(param.pointer);
+        state.memoryBlock = state.memoryBlock.grow(state.pointer);
     };
 
-    private readonly execute = async (param: {
-        pointer: number;
-        result: Array<Uint8Array>;
-        memoryBlock: MemoryBlock;
-        copyNodes: MutableGenerated;
-        guardian: Guardian;
-        input: {
-            values: ReadonlyArray<number> | undefined;
-            index: number;
-        };
-    }) => {
-        while (param.copyNodes.length) {
+    private readonly execute = async (nodes: Generated, state: State) => {
+        let index = 0;
+        while (index < nodes.length) {
             const node = guard({
-                value: param.copyNodes.at(0),
+                value: nodes.at(index),
                 error: () => {
                     return new Error('There should be element in the loop');
                 },
             });
             switch (node.type) {
                 case 'clear-loop': {
-                    param.memoryBlock.clear(param.pointer);
+                    state.memoryBlock.clear(state.pointer);
                     break;
                 }
                 case 'operation': {
-                    this.operation(node.value, param);
+                    this.operation(node.value, state);
                     break;
                 }
                 case 'arrow': {
-                    this.arrow(node.index, param);
+                    this.arrow(node.index, state);
                     break;
                 }
                 case 'arrow-operation': {
-                    this.arrow(node.index, param);
-                    this.operation(node.value, param);
+                    this.arrow(node.index, state);
+                    this.operation(node.value, state);
                     break;
                 }
                 case 'bracket': {
-                    let tempParam = {
-                        ...param,
-                        copyNodes: node.operations as MutableGenerated,
-                    };
-                    while (!tempParam.memoryBlock.isZero(tempParam.pointer)) {
-                        const bracket = await this.execute(tempParam);
-                        tempParam = {
-                            ...bracket,
-                            copyNodes: node.operations as MutableGenerated,
-                        };
+                    while (!state.memoryBlock.isZero(state.pointer)) {
+                        await this.execute(node.operations, state);
                     }
-                    param.pointer = tempParam.pointer;
-                    param.memoryBlock = tempParam.memoryBlock;
                     break;
                 }
                 case 'punctuation': {
                     switch (node.punctuation) {
                         case 'dot': {
-                            param.result.push(
+                            state.result.push(
                                 new Uint8Array(
                                     Array.from({ length: node.repeat }, () => {
-                                        return param.memoryBlock.byte(
-                                            param.pointer
+                                        return state.memoryBlock.byte(
+                                            state.pointer
                                         );
                                     })
                                 )
@@ -149,10 +133,10 @@ export default class InterpreterRunner {
                         case 'comma': {
                             let repeated = 0;
                             while (repeated < node.repeat) {
-                                const decimal = await this.readInput(param);
+                                const decimal = await this.readInput(state);
                                 if (decimal !== undefined) {
-                                    param.memoryBlock.set(
-                                        param.pointer,
+                                    state.memoryBlock.set(
+                                        state.pointer,
                                         decimal
                                     );
                                 }
@@ -163,16 +147,15 @@ export default class InterpreterRunner {
                     }
                 }
             }
-            param.copyNodes = param.copyNodes.slice(1);
+            index += 1;
         }
-        return param;
+        return state;
     };
 
     readonly run = async () => {
-        const param = await this.execute({
+        const state = await this.execute(this.nodes, {
             pointer: 0,
             guardian: new Guardian(this.options?.cellSize),
-            copyNodes: this.nodes.slice(),
             result: [] as Array<Uint8Array>,
             memoryBlock: MemoryBlock.create({
                 cellSize: this.options?.cellSize ?? 8,
@@ -189,7 +172,7 @@ export default class InterpreterRunner {
             },
         });
 
-        return Array.from(param.result)
+        return Array.from(state.result)
             .map((result) => {
                 return String.fromCharCode(...result);
             })

@@ -31,6 +31,8 @@ type BracketNode = Readonly<{
 
 type Nodes = ReturnType<Parser['generate']>;
 
+type Node = Nodes[number];
+
 export default class Parser {
     constructor(
         private readonly tokens: ReturnType<TokensGenerator['generate']>
@@ -143,4 +145,4 @@ export default class Parser {
     };
 }
 
-export type { Nodes };
+export type { Node, Nodes };

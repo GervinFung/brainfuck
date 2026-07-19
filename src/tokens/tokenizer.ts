@@ -44,42 +44,35 @@ export default class Tokenizer {
               }>
         >;
 
-        const { tokens } = oldTokens.reduce(
-            ({ tokens, bracketStack }, token) => {
-                switch (token.type) {
-                    case 'bracket': {
-                        const { length } = tokens.filter((token) => {
-                            return (
-                                token.type === 'bracket' &&
-                                token.direction === 'left'
-                            );
-                        });
-                        return {
-                            bracketStack:
-                                token.direction === 'right'
-                                    ? bracketStack.pop()
-                                    : bracketStack.push(length),
-                            tokens: tokens.concat({
-                                ...token,
-                                pairID:
-                                    token.direction !== 'right'
-                                        ? length
-                                        : bracketStack.last(),
-                            }),
-                        };
-                    }
-                }
+        const tokens = [] as Array<Tokens[number]>;
+        let bracketStack = new BracketIndexStack([]);
+        let leftBracketCount = 0;
 
-                return {
-                    bracketStack,
-                    tokens: tokens.concat(token),
-                };
-            },
-            {
-                bracketStack: new BracketIndexStack([]),
-                tokens: [] as Tokens,
-            } as const
-        );
+        for (const token of oldTokens) {
+            switch (token.type) {
+                case 'bracket': {
+                    tokens.push({
+                        ...token,
+                        pairID:
+                            token.direction !== 'right'
+                                ? leftBracketCount
+                                : bracketStack.last(),
+                    });
+                    bracketStack =
+                        token.direction === 'right'
+                            ? bracketStack.pop()
+                            : bracketStack.push(leftBracketCount);
+                    leftBracketCount =
+                        token.direction === 'left'
+                            ? leftBracketCount + 1
+                            : leftBracketCount;
+                    break;
+                }
+                default: {
+                    tokens.push(token);
+                }
+            }
+        }
 
         const brackets = tokens.flatMap((token) => {
             return token.type !== 'bracket' ? [] : [token];
@@ -89,23 +82,21 @@ export default class Tokenizer {
             return token.direction === 'left';
         });
 
-        const rightBrackets = brackets.filter((token) => {
-            return token.direction === 'right';
-        });
+        const rightPairIDs = new Set(
+            brackets.flatMap((token) => {
+                return token.direction !== 'right' ? [] : [token.pairID];
+            })
+        );
 
         if (
-            leftBrackets.length !== rightBrackets.length ||
+            leftBrackets.length !== rightPairIDs.size ||
             !leftBrackets.every((leftToken) => {
-                return Boolean(
-                    rightBrackets.find((rightToken) => {
-                        return rightToken.pairID === leftToken.pairID;
-                    })
-                );
+                return rightPairIDs.has(leftToken.pairID);
             })
         ) {
             throw new Error(`Number of brackets in code doesn't match`);
         }
 
-        return tokens;
+        return tokens as Tokens;
     };
 }
