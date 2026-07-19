@@ -1,0 +1,1358 @@
+[
+  {
+    "index": 4,
+    "type": "arrow-operation",
+    "value": 1,
+  },
+  {
+    "index": 1,
+    "type": "arrow-operation",
+    "value": 3,
+  },
+  {
+    "index": 1,
+    "type": "arrow-operation",
+    "value": 3,
+  },
+  {
+    "index": 5,
+    "type": "arrow-operation",
+    "value": 3,
+  },
+  {
+    "operations": [
+      {
+        "index": 1,
+        "type": "arrow",
+      },
+      {
+        "punctuation": "comma",
+        "repeat": 1,
+        "type": "punctuation",
+      },
+      {
+        "type": "operation",
+        "value": 1,
+      },
+      {
+        "index": 1,
+        "type": "arrow-operation",
+        "value": 4,
+      },
+      {
+        "operations": [
+          {
+            "index": 1,
+            "type": "arrow-operation",
+            "value": 4,
+          },
+          {
+            "index": -1,
+            "type": "arrow-operation",
+            "value": -1,
+          },
+        ],
+        "type": "bracket",
+      },
+      {
+        "index": 1,
+        "type": "arrow",
+      },
+      {
+        "operations": [
+          {
+            "index": -2,
+            "type": "arrow",
+          },
+          {
+            "operations": [
+              {
+                "type": "operation",
+                "value": -1,
+              },
+              {
+                "operations": [
+                  {
+                    "type": "operation",
+                    "value": -1,
+                  },
+                  {
+                    "index": 1,
+                    "type": "arrow",
+                  },
+                ],
+                "type": "bracket",
+              },
+            ],
+            "type": "bracket",
+          },
+          {
+            "index": 1,
+            "type": "arrow",
+          },
+          {
+            "operations": [
+              {
+                "index": -1,
+                "type": "arrow",
+              },
+            ],
+            "type": "bracket",
+          },
+          {
+            "index": 1,
+            "type": "arrow-operation",
+            "value": -1,
+          },
+        ],
+        "type": "bracket",
+      },
+      {
+        "index": -2,
+        "type": "arrow",
+      },
+      {
+        "operations": [
+          {
+            "index": 1,
+            "type": "arrow-operation",
+            "value": 1,
+          },
+          {
+            "index": 1,
+            "type": "arrow-operation",
+            "value": 1,
+          },
+          {
+            "index": 2,
+            "type": "arrow-operation",
+            "value": 1,
+          },
+          {
+            "index": 1,
+            "type": "arrow-operation",
+            "value": 1,
+          },
+          {
+            "operations": [
+              {
+                "index": -4,
+                "type": "arrow",
+              },
+            ],
+            "type": "bracket",
+          },
+          {
+            "index": -1,
+            "type": "arrow-operation",
+            "value": 1,
+          },
+          {
+            "index": 2,
+            "type": "arrow",
+          },
+          {
+            "operations": [
+              {
+                "type": "operation",
+                "value": 1,
+              },
+              {
+                "index": -1,
+                "type": "arrow",
+              },
+            ],
+            "type": "bracket",
+          },
+          {
+            "index": -1,
+            "type": "arrow",
+          },
+          {
+            "operations": [
+              {
+                "index": 1,
+                "type": "arrow",
+              },
+            ],
+            "type": "bracket",
+          },
+          {
+            "index": 1,
+            "type": "arrow-operation",
+            "value": 1,
+          },
+          {
+            "operations": [
+              {
+                "operations": [
+                  {
+                    "index": 3,
+                    "type": "arrow",
+                  },
+                ],
+                "type": "bracket",
+              },
+              {
+                "index": 2,
+                "type": "arrow-operation",
+                "value": 1,
+              },
+              {
+                "operations": [
+                  {
+                    "index": -4,
+                    "type": "arrow",
+                  },
+                ],
+                "type": "bracket",
+              },
+              {
+                "index": 1,
+                "type": "arrow-operation",
+                "value": -1,
+              },
+            ],
+            "type": "bracket",
+          },
+          {
+            "type": "operation",
+            "value": 1,
+          },
+          {
+            "index": -1,
+            "type": "arrow-operation",
+            "value": 1,
+          },
+          {
+            "index": 3,
+            "type": "arrow-operation",
+            "value": -1,
+          },
+          {
+            "operations": [
+              {
+                "index": -2,
+                "type": "arrow-operation",
+                "value": 1,
+              },
+              {
+                "operations": [
+                  {
+                    "index": 1,
+                    "type": "arrow",
+                  },
+                ],
+                "type": "bracket",
+              },
+              {
+                "index": 2,
+                "type": "arrow-operation",
+                "value": 1,
+              },
+              {
+                "index": -3,
+                "type": "arrow-operation",
+                "value": 1,
+              },
+              {
+                "index": -1,
+                "type": "arrow-operation",
+                "value": 1,
+              },
+              {
+                "index": -1,
+                "type": "arrow-operation",
+                "value": -8,
+              },
+              {
+                "operations": [
+                  {
+                    "index": -2,
+                    "type": "arrow-operation",
+                    "value": -1,
+                  },
+                  {
+                    "index": -2,
+                    "type": "arrow-operation",
+                    "value": 1,
+                  },
+                  {
+                    "operations": [
+                      {
+                        "index": 1,
+                        "type": "arrow",
+                      },
+                    ],
+                    "type": "bracket",
+                  },
+                  {
+                    "index": 1,
+                    "type": "arrow-operation",
+                    "value": 1,
+                  },
+                  {
+                    "index": -2,
+                    "type": "arrow-operation",
+                    "value": -1,
+                  },
+                  {
+                    "index": -2,
+                    "type": "arrow-operation",
+                    "value": -1,
+                  },
+                  {
+                    "operations": [
+                      {
+                        "index": -3,
+                        "type": "arrow-operation",
+                        "value": 1,
+                      },
+                      {
+                        "index": -1,
+                        "type": "arrow-operation",
+                        "value": -1,
+                      },
+                      {
+                        "operations": [
+                          {
+                            "index": 2,
+                            "type": "arrow",
+                          },
+                        ],
+                        "type": "bracket",
+                      },
+                      {
+                        "index": -1,
+                        "type": "arrow-operation",
+                        "value": -1,
+                      },
+                      {
+                        "index": -1,
+                        "type": "arrow-operation",
+                        "value": -1,
+                      },
+                      {
+                        "index": -3,
+                        "type": "arrow-operation",
+                        "value": -1,
+                      },
+                      {
+                        "index": -1,
+                        "type": "arrow-operation",
+                        "value": -4,
+                      },
+                      {
+                        "operations": [
+                          {
+                            "index": -3,
+                            "type": "arrow-operation",
+                            "value": -1,
+                          },
+                          {
+                            "index": 4,
+                            "type": "arrow-operation",
+                            "value": 1,
+                          },
+                          {
+                            "index": -1,
+                            "type": "arrow-operation",
+                            "value": -1,
+                          },
+                          {
+                            "operations": [
+                              {
+                                "index": -3,
+                                "type": "arrow-operation",
+                                "value": 1,
+                              },
+                              {
+                                "operations": [
+                                  {
+                                    "index": 1,
+                                    "type": "arrow",
+                                  },
+                                ],
+                                "type": "bracket",
+                              },
+                              {
+                                "index": 1,
+                                "type": "arrow-operation",
+                                "value": 1,
+                              },
+                              {
+                                "index": -2,
+                                "type": "arrow-operation",
+                                "value": 1,
+                              },
+                              {
+                                "index": -1,
+                                "type": "arrow-operation",
+                                "value": -1,
+                              },
+                              {
+                                "index": -1,
+                                "type": "arrow-operation",
+                                "value": -1,
+                              },
+                              {
+                                "operations": [
+                                  {
+                                    "index": -2,
+                                    "type": "arrow-operation",
+                                    "value": 1,
+                                  },
+                                  {
+                                    "index": -1,
+                                    "type": "arrow-operation",
+                                    "value": -1,
+                                  },
+                                  {
+                                    "index": -1,
+                                    "type": "arrow-operation",
+                                    "value": 1,
+                                  },
+                                  {
+                                    "operations": [
+                                      {
+                                        "index": 2,
+                                        "type": "arrow",
+                                      },
+                                    ],
+                                    "type": "bracket",
+                                  },
+                                  {
+                                    "index": -1,
+                                    "type": "arrow-operation",
+                                    "value": 1,
+                                  },
+                                  {
+                                    "index": -4,
+                                    "type": "arrow-operation",
+                                    "value": 1,
+                                  },
+                                  {
+                                    "index": -1,
+                                    "type": "arrow-operation",
+                                    "value": -1,
+                                  },
+                                  {
+                                    "operations": [
+                                      {
+                                        "index": -2,
+                                        "type": "arrow-operation",
+                                        "value": -1,
+                                      },
+                                      {
+                                        "operations": [
+                                          {
+                                            "index": 1,
+                                            "type": "arrow",
+                                          },
+                                        ],
+                                        "type": "bracket",
+                                      },
+                                      {
+                                        "index": 2,
+                                        "type": "arrow-operation",
+                                        "value": -1,
+                                      },
+                                      {
+                                        "index": -3,
+                                        "type": "arrow-operation",
+                                        "value": -1,
+                                      },
+                                      {
+                                        "index": -1,
+                                        "type": "arrow-operation",
+                                        "value": -1,
+                                      },
+                                      {
+                                        "index": -1,
+                                        "type": "arrow-operation",
+                                        "value": -1,
+                                      },
+                                      {
+                                        "operations": [
+                                          {
+                                            "index": -3,
+                                            "type": "arrow-operation",
+                                            "value": 1,
+                                          },
+                                          {
+                                            "index": -1,
+                                            "type": "arrow-operation",
+                                            "value": -1,
+                                          },
+                                          {
+                                            "operations": [
+                                              {
+                                                "index": 2,
+                                                "type": "arrow",
+                                              },
+                                            ],
+                                            "type": "bracket",
+                                          },
+                                          {
+                                            "index": -1,
+                                            "type": "arrow-operation",
+                                            "value": 1,
+                                          },
+                                          {
+                                            "index": -3,
+                                            "type": "arrow-operation",
+                                            "value": 1,
+                                          },
+                                          {
+                                            "index": -1,
+                                            "type": "arrow-operation",
+                                            "value": 1,
+                                          },
+                                          {
+                                            "index": -1,
+                                            "type": "arrow-operation",
+                                            "value": -1,
+                                          },
+                                          {
+                                            "operations": [
+                                              {
+                                                "index": -4,
+                                                "type": "arrow-operation",
+                                                "value": 1,
+                                              },
+                                              {
+                                                "operations": [
+                                                  {
+                                                    "index": 1,
+                                                    "type": "arrow",
+                                                  },
+                                                ],
+                                                "type": "bracket",
+                                              },
+                                              {
+                                                "index": -1,
+                                                "type": "arrow-operation",
+                                                "value": -1,
+                                              },
+                                              {
+                                                "index": -2,
+                                                "type": "arrow-operation",
+                                                "value": -1,
+                                              },
+                                              {
+                                                "operations": [
+                                                  {
+                                                    "index": -2,
+                                                    "type": "arrow-operation",
+                                                    "value": 1,
+                                                  },
+                                                  {
+                                                    "operations": [
+                                                      {
+                                                        "index": 1,
+                                                        "type": "arrow",
+                                                      },
+                                                    ],
+                                                    "type": "bracket",
+                                                  },
+                                                  {
+                                                    "index": 2,
+                                                    "type": "arrow-operation",
+                                                    "value": -1,
+                                                  },
+                                                  {
+                                                    "index": -4,
+                                                    "type": "arrow-operation",
+                                                    "value": -1,
+                                                  },
+                                                  {
+                                                    "index": -1,
+                                                    "type": "arrow-operation",
+                                                    "value": -1,
+                                                  },
+                                                  {
+                                                    "operations": [
+                                                      {
+                                                        "index": 5,
+                                                        "type": "arrow-operation",
+                                                        "value": 1,
+                                                      },
+                                                      {
+                                                        "index": -1,
+                                                        "type": "arrow-operation",
+                                                        "value": -1,
+                                                      },
+                                                      {
+                                                        "index": -3,
+                                                        "type": "arrow-operation",
+                                                        "value": 1,
+                                                      },
+                                                      {
+                                                        "index": -1,
+                                                        "type": "arrow-operation",
+                                                        "value": -1,
+                                                      },
+                                                      {
+                                                        "operations": [
+                                                          {
+                                                            "index": 2,
+                                                            "type": "arrow-operation",
+                                                            "value": 1,
+                                                          },
+                                                          {
+                                                            "index": -2,
+                                                            "type": "arrow-operation",
+                                                            "value": -1,
+                                                          },
+                                                          {
+                                                            "operations": [
+                                                              {
+                                                                "index": -2,
+                                                                "type": "arrow-operation",
+                                                                "value": -1,
+                                                              },
+                                                              {
+                                                                "index": -1,
+                                                                "type": "arrow-operation",
+                                                                "value": -1,
+                                                              },
+                                                              {
+                                                                "operations": [
+                                                                  {
+                                                                    "index": 1,
+                                                                    "type": "arrow",
+                                                                  },
+                                                                ],
+                                                                "type": "bracket",
+                                                              },
+                                                              {
+                                                                "index": 1,
+                                                                "type": "arrow-operation",
+                                                                "value": 1,
+                                                              },
+                                                              {
+                                                                "index": -2,
+                                                                "type": "arrow-operation",
+                                                                "value": -1,
+                                                              },
+                                                              {
+                                                                "index": -1,
+                                                                "type": "arrow-operation",
+                                                                "value": -1,
+                                                              },
+                                                              {
+                                                                "index": -1,
+                                                                "type": "arrow-operation",
+                                                                "value": -1,
+                                                              },
+                                                              {
+                                                                "operations": [
+                                                                  {
+                                                                    "index": -2,
+                                                                    "type": "arrow-operation",
+                                                                    "value": 1,
+                                                                  },
+                                                                  {
+                                                                    "index": -1,
+                                                                    "type": "arrow-operation",
+                                                                    "value": 1,
+                                                                  },
+                                                                  {
+                                                                    "operations": [
+                                                                      {
+                                                                        "index": 1,
+                                                                        "type": "arrow",
+                                                                      },
+                                                                    ],
+                                                                    "type": "bracket",
+                                                                  },
+                                                                  {
+                                                                    "index": -1,
+                                                                    "type": "arrow-operation",
+                                                                    "value": 1,
+                                                                  },
+                                                                  {
+                                                                    "index": -1,
+                                                                    "type": "arrow-operation",
+                                                                    "value": 1,
+                                                                  },
+                                                                  {
+                                                                    "index": -1,
+                                                                    "type": "arrow-operation",
+                                                                    "value": -1,
+                                                                  },
+                                                                  {
+                                                                    "operations": [
+                                                                      {
+                                                                        "index": 2,
+                                                                        "type": "arrow-operation",
+                                                                        "value": -1,
+                                                                      },
+                                                                      {
+                                                                        "index": -1,
+                                                                        "type": "arrow-operation",
+                                                                        "value": -1,
+                                                                      },
+                                                                      {
+                                                                        "index": -1,
+                                                                        "type": "arrow-operation",
+                                                                        "value": -1,
+                                                                      },
+                                                                      {
+                                                                        "operations": [
+                                                                          {
+                                                                            "index": -2,
+                                                                            "type": "arrow-operation",
+                                                                            "value": -1,
+                                                                          },
+                                                                          {
+                                                                            "operations": [
+                                                                              {
+                                                                                "index": 1,
+                                                                                "type": "arrow",
+                                                                              },
+                                                                            ],
+                                                                            "type": "bracket",
+                                                                          },
+                                                                          {
+                                                                            "index": -1,
+                                                                            "type": "arrow-operation",
+                                                                            "value": 1,
+                                                                          },
+                                                                          {
+                                                                            "index": -1,
+                                                                            "type": "arrow-operation",
+                                                                            "value": 4,
+                                                                          },
+                                                                          {
+                                                                            "operations": [
+                                                                              {
+                                                                                "index": -1,
+                                                                                "type": "arrow-operation",
+                                                                                "value": -8,
+                                                                              },
+                                                                              {
+                                                                                "index": 1,
+                                                                                "type": "arrow-operation",
+                                                                                "value": -1,
+                                                                              },
+                                                                            ],
+                                                                            "type": "bracket",
+                                                                          },
+                                                                          {
+                                                                            "type": "operation",
+                                                                            "value": 2,
+                                                                          },
+                                                                          {
+                                                                            "index": -1,
+                                                                            "type": "arrow",
+                                                                          },
+                                                                          {
+                                                                            "operations": [
+                                                                              {
+                                                                                "index": -2,
+                                                                                "type": "arrow-operation",
+                                                                                "value": 1,
+                                                                              },
+                                                                              {
+                                                                                "operations": [
+                                                                                  {
+                                                                                    "index": 1,
+                                                                                    "type": "arrow",
+                                                                                  },
+                                                                                ],
+                                                                                "type": "bracket",
+                                                                              },
+                                                                              {
+                                                                                "index": 2,
+                                                                                "type": "arrow-operation",
+                                                                                "value": -1,
+                                                                              },
+                                                                              {
+                                                                                "index": -1,
+                                                                                "type": "arrow-operation",
+                                                                                "value": -1,
+                                                                              },
+                                                                              {
+                                                                                "index": -4,
+                                                                                "type": "arrow-operation",
+                                                                                "value": -1,
+                                                                              },
+                                                                              {
+                                                                                "operations": [
+                                                                                  {
+                                                                                    "index": -2,
+                                                                                    "type": "arrow-operation",
+                                                                                    "value": -1,
+                                                                                  },
+                                                                                  {
+                                                                                    "index": -2,
+                                                                                    "type": "arrow-operation",
+                                                                                    "value": -1,
+                                                                                  },
+                                                                                  {
+                                                                                    "index": 4,
+                                                                                    "type": "arrow-operation",
+                                                                                    "value": -1,
+                                                                                  },
+                                                                                  {
+                                                                                    "operations": [
+                                                                                      {
+                                                                                        "index": -4,
+                                                                                        "type": "arrow-operation",
+                                                                                        "value": 1,
+                                                                                      },
+                                                                                      {
+                                                                                        "operations": [
+                                                                                          {
+                                                                                            "index": 1,
+                                                                                            "type": "arrow",
+                                                                                          },
+                                                                                        ],
+                                                                                        "type": "bracket",
+                                                                                      },
+                                                                                      {
+                                                                                        "index": 1,
+                                                                                        "type": "arrow-operation",
+                                                                                        "value": 1,
+                                                                                      },
+                                                                                      {
+                                                                                        "index": -4,
+                                                                                        "type": "arrow-operation",
+                                                                                        "value": -1,
+                                                                                      },
+                                                                                      {
+                                                                                        "operations": [
+                                                                                          {
+                                                                                            "index": -2,
+                                                                                            "type": "arrow-operation",
+                                                                                            "value": 1,
+                                                                                          },
+                                                                                          {
+                                                                                            "index": -2,
+                                                                                            "type": "arrow-operation",
+                                                                                            "value": -1,
+                                                                                          },
+                                                                                          {
+                                                                                            "operations": [
+                                                                                              {
+                                                                                                "index": 2,
+                                                                                                "type": "arrow",
+                                                                                              },
+                                                                                            ],
+                                                                                            "type": "bracket",
+                                                                                          },
+                                                                                          {
+                                                                                            "index": -1,
+                                                                                            "type": "arrow-operation",
+                                                                                            "value": 1,
+                                                                                          },
+                                                                                          {
+                                                                                            "index": -5,
+                                                                                            "type": "arrow-operation",
+                                                                                            "value": -1,
+                                                                                          },
+                                                                                          {
+                                                                                            "operations": [
+                                                                                              {
+                                                                                                "index": 4,
+                                                                                                "type": "arrow-operation",
+                                                                                                "value": -1,
+                                                                                              },
+                                                                                              {
+                                                                                                "index": -3,
+                                                                                                "type": "arrow-operation",
+                                                                                                "value": -1,
+                                                                                              },
+                                                                                              {
+                                                                                                "index": -1,
+                                                                                                "type": "arrow-operation",
+                                                                                                "value": -1,
+                                                                                              },
+                                                                                            ],
+                                                                                            "type": "bracket",
+                                                                                          },
+                                                                                        ],
+                                                                                        "type": "bracket",
+                                                                                      },
+                                                                                    ],
+                                                                                    "type": "bracket",
+                                                                                  },
+                                                                                ],
+                                                                                "type": "bracket",
+                                                                              },
+                                                                            ],
+                                                                            "type": "bracket",
+                                                                          },
+                                                                        ],
+                                                                        "type": "bracket",
+                                                                      },
+                                                                    ],
+                                                                    "type": "bracket",
+                                                                  },
+                                                                ],
+                                                                "type": "bracket",
+                                                              },
+                                                            ],
+                                                            "type": "bracket",
+                                                          },
+                                                        ],
+                                                        "type": "bracket",
+                                                      },
+                                                    ],
+                                                    "type": "bracket",
+                                                  },
+                                                ],
+                                                "type": "bracket",
+                                              },
+                                            ],
+                                            "type": "bracket",
+                                          },
+                                        ],
+                                        "type": "bracket",
+                                      },
+                                    ],
+                                    "type": "bracket",
+                                  },
+                                ],
+                                "type": "bracket",
+                              },
+                            ],
+                            "type": "bracket",
+                          },
+                        ],
+                        "type": "bracket",
+                      },
+                    ],
+                    "type": "bracket",
+                  },
+                ],
+                "type": "bracket",
+              },
+            ],
+            "type": "bracket",
+          },
+        ],
+        "type": "bracket",
+      },
+      {
+        "index": 1,
+        "type": "arrow",
+      },
+      {
+        "operations": [
+          {
+            "index": 1,
+            "type": "arrow",
+          },
+          {
+            "operations": [
+              {
+                "operations": [
+                  {
+                    "operations": [
+                      {
+                        "index": -4,
+                        "type": "arrow",
+                      },
+                    ],
+                    "type": "bracket",
+                  },
+                  {
+                    "index": 1,
+                    "type": "arrow",
+                  },
+                  {
+                    "type": "operation",
+                    "value": 1,
+                  },
+                  {
+                    "index": 2,
+                    "type": "arrow",
+                  },
+                  {
+                    "operations": [
+                      {
+                        "index": 5,
+                        "type": "arrow",
+                      },
+                    ],
+                    "type": "bracket",
+                  },
+                  {
+                    "index": -1,
+                    "type": "arrow",
+                  },
+                  {
+                    "type": "operation",
+                    "value": -1,
+                  },
+                ],
+                "type": "bracket",
+              },
+              {
+                "index": -1,
+                "type": "arrow",
+              },
+            ],
+            "type": "bracket",
+          },
+          {
+            "index": 3,
+            "type": "arrow-operation",
+            "value": 1,
+          },
+          {
+            "index": 7,
+            "type": "arrow-operation",
+            "value": 1,
+          },
+          {
+            "index": 1,
+            "type": "arrow",
+          },
+        ],
+        "type": "bracket",
+      },
+      {
+        "index": -1,
+        "type": "arrow",
+      },
+    ],
+    "type": "bracket",
+  },
+  {
+    "index": -1,
+    "type": "arrow",
+  },
+  {
+    "type": "clear-loop",
+  },
+  {
+    "index": -7,
+    "type": "arrow-operation",
+    "value": 2,
+  },
+  {
+    "index": -1,
+    "type": "arrow-operation",
+    "value": 3,
+  },
+  {
+    "index": -1,
+    "type": "arrow-operation",
+    "value": 3,
+  },
+  {
+    "operations": [
+      {
+        "operations": [
+          {
+            "index": 1,
+            "type": "arrow",
+          },
+        ],
+        "type": "bracket",
+      },
+      {
+        "index": 6,
+        "type": "arrow-operation",
+        "value": 8,
+      },
+      {
+        "operations": [
+          {
+            "index": -2,
+            "type": "arrow-operation",
+            "value": 4,
+          },
+          {
+            "index": 1,
+            "type": "arrow-operation",
+            "value": 6,
+          },
+          {
+            "index": 1,
+            "type": "arrow-operation",
+            "value": -1,
+          },
+        ],
+        "type": "bracket",
+      },
+      {
+        "index": -1,
+        "type": "arrow-operation",
+        "value": -1,
+      },
+      {
+        "index": -2,
+        "type": "arrow",
+      },
+      {
+        "operations": [
+          {
+            "type": "operation",
+            "value": -1,
+          },
+          {
+            "operations": [
+              {
+                "index": -1,
+                "type": "arrow-operation",
+                "value": 1,
+              },
+              {
+                "index": 2,
+                "type": "arrow",
+              },
+              {
+                "punctuation": "dot",
+                "repeat": 1,
+                "type": "punctuation",
+              },
+              {
+                "index": -1,
+                "type": "arrow-operation",
+                "value": -1,
+              },
+            ],
+            "type": "bracket",
+          },
+        ],
+        "type": "bracket",
+      },
+      {
+        "index": -4,
+        "type": "arrow",
+      },
+      {
+        "operations": [
+          {
+            "type": "operation",
+            "value": -1,
+          },
+          {
+            "operations": [
+              {
+                "type": "operation",
+                "value": -1,
+              },
+              {
+                "operations": [
+                  {
+                    "index": 1,
+                    "type": "arrow-operation",
+                    "value": 1,
+                  },
+                  {
+                    "index": -1,
+                    "type": "arrow-operation",
+                    "value": -1,
+                  },
+                ],
+                "type": "bracket",
+              },
+              {
+                "index": 1,
+                "type": "arrow",
+              },
+            ],
+            "type": "bracket",
+          },
+          {
+            "index": 5,
+            "type": "arrow",
+          },
+          {
+            "operations": [
+              {
+                "punctuation": "dot",
+                "repeat": 1,
+                "type": "punctuation",
+              },
+              {
+                "operations": [
+                  {
+                    "index": 1,
+                    "type": "arrow",
+                  },
+                ],
+                "type": "bracket",
+              },
+            ],
+            "type": "bracket",
+          },
+          {
+            "index": -2,
+            "type": "arrow",
+          },
+          {
+            "operations": [
+              {
+                "index": -1,
+                "type": "arrow-operation",
+                "value": 1,
+              },
+              {
+                "index": 1,
+                "type": "arrow-operation",
+                "value": -1,
+              },
+            ],
+            "type": "bracket",
+          },
+          {
+            "index": 3,
+            "type": "arrow",
+          },
+          {
+            "operations": [
+              {
+                "index": -2,
+                "type": "arrow-operation",
+                "value": 2,
+              },
+              {
+                "operations": [
+                  {
+                    "index": -1,
+                    "type": "arrow-operation",
+                    "value": 1,
+                  },
+                  {
+                    "index": 1,
+                    "type": "arrow-operation",
+                    "value": -2,
+                  },
+                ],
+                "type": "bracket",
+              },
+              {
+                "index": 2,
+                "type": "arrow-operation",
+                "value": -1,
+              },
+            ],
+            "type": "bracket",
+          },
+          {
+            "index": -2,
+            "type": "arrow",
+          },
+          {
+            "operations": [
+              {
+                "type": "operation",
+                "value": -1,
+              },
+              {
+                "index": 1,
+                "type": "arrow-operation",
+                "value": 1,
+              },
+              {
+                "index": -1,
+                "type": "arrow",
+              },
+              {
+                "operations": [
+                  {
+                    "index": -1,
+                    "type": "arrow-operation",
+                    "value": 2,
+                  },
+                  {
+                    "index": 1,
+                    "type": "arrow-operation",
+                    "value": -1,
+                  },
+                ],
+                "type": "bracket",
+              },
+            ],
+            "type": "bracket",
+          },
+          {
+            "index": -3,
+            "type": "arrow",
+          },
+          {
+            "operations": [
+              {
+                "index": -1,
+                "type": "arrow-operation",
+                "value": 1,
+              },
+              {
+                "index": 1,
+                "type": "arrow-operation",
+                "value": -1,
+              },
+            ],
+            "type": "bracket",
+          },
+          {
+            "index": -4,
+            "type": "arrow",
+          },
+        ],
+        "type": "bracket",
+      },
+      {
+        "index": 2,
+        "type": "arrow-operation",
+        "value": 1,
+      },
+      {
+        "index": 3,
+        "type": "arrow-operation",
+        "value": -2,
+      },
+      {
+        "operations": [
+          {
+            "index": -1,
+            "type": "arrow-operation",
+            "value": 1,
+          },
+          {
+            "index": 1,
+            "type": "arrow-operation",
+            "value": -3,
+          },
+        ],
+        "type": "bracket",
+      },
+      {
+        "index": -1,
+        "type": "arrow",
+      },
+      {
+        "punctuation": "dot",
+        "repeat": 1,
+        "type": "punctuation",
+      },
+      {
+        "index": 2,
+        "type": "arrow",
+      },
+      {
+        "operations": [
+          {
+            "type": "clear-loop",
+          },
+          {
+            "index": -2,
+            "type": "arrow",
+          },
+        ],
+        "type": "bracket",
+      },
+      {
+        "index": -1,
+        "type": "arrow",
+      },
+    ],
+    "type": "bracket",
+  },
+]
