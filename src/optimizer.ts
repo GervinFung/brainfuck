@@ -1,4 +1,4 @@
-import type { Nodes } from './parser';
+import type { Node, Nodes } from './parser';
 import { guard, type Mutable } from './type';
 
 type Punctuation = Readonly<{
@@ -72,7 +72,9 @@ export default class Optimizer {
     private readonly fuseAllMovements = (
         nodes: NegatedNodes
     ): FusedMovements => {
-        return nodes.reduce((fusedMovements, node) => {
+        const fusedMovements = [] as Array<FusedMovement>;
+
+        for (const node of nodes) {
             const operation = (): FusedMovement => {
                 return type === 'arrow'
                     ? {
@@ -103,16 +105,10 @@ export default class Optimizer {
 
             const { type } = node;
 
-            if (!fusedMovements.length) {
-                return [operation()];
-            }
-
             const previousElement = fusedMovements.at(-1);
-            if (!previousElement) {
-                throw new Error('Should be defined');
-            }
 
             if (
+                !previousElement ||
                 previousElement.type !== node.type ||
                 (previousElement.type === node.type &&
                     node.type === 'bracket') ||
@@ -120,50 +116,44 @@ export default class Optimizer {
                     node.type === 'punctuation' &&
                     previousElement.punctuation !== node.punctuation)
             ) {
-                return fusedMovements.concat(operation());
+                fusedMovements.push(operation());
+                continue;
             }
 
-            const lastIndex = fusedMovements.lastIndexOf(previousElement);
+            const lastIndex = fusedMovements.length - 1;
+            const previousType = previousElement.type;
+            switch (previousType) {
+                case 'arrow': {
+                    if (node.type === previousType) {
+                        fusedMovements[lastIndex] = {
+                            ...previousElement,
+                            index: previousElement.index + node.index,
+                        };
+                    }
+                    break;
+                }
+                case 'operation': {
+                    if (node.type === previousType) {
+                        fusedMovements[lastIndex] = {
+                            ...previousElement,
+                            value: previousElement.value + node.value,
+                        };
+                    }
+                    break;
+                }
+                case 'punctuation': {
+                    if (node.type === previousType) {
+                        fusedMovements[lastIndex] = {
+                            ...previousElement,
+                            repeat: previousElement.repeat + 1,
+                        };
+                    }
+                    break;
+                }
+            }
+        }
 
-            return fusedMovements.map((movement, index) => {
-                if (
-                    !(
-                        index === lastIndex &&
-                        movement.type !== 'clear-loop' &&
-                        movement.type !== 'bracket'
-                    )
-                ) {
-                    return movement;
-                }
-                const { type } = movement;
-                switch (type) {
-                    case 'arrow': {
-                        return node.type !== type
-                            ? movement
-                            : {
-                                  ...movement,
-                                  index: movement.index + node.index,
-                              };
-                    }
-                    case 'operation': {
-                        return node.type !== type
-                            ? movement
-                            : {
-                                  ...movement,
-                                  value: movement.value + node.value,
-                              };
-                    }
-                    case 'punctuation': {
-                        return node.type !== type
-                            ? movement
-                            : {
-                                  ...movement,
-                                  repeat: movement.repeat + 1,
-                              };
-                    }
-                }
-            });
-        }, [] as FusedMovements);
+        return fusedMovements;
     };
 
     private readonly negate = (nodes: Nodes): NegatedNodes => {
@@ -196,17 +186,21 @@ export default class Optimizer {
     private readonly compoundArrowAndOperationMovement = (
         fusedMovements: FusedMovements
     ): CompoundMovements => {
-        return fusedMovements.reduce((compoundMovements, movement) => {
+        const compoundMovements = [] as Array<CompoundMovements[number]>;
+
+        for (const movement of fusedMovements) {
             if (!compoundMovements.length) {
-                return [movement];
+                compoundMovements.push(movement);
+                continue;
             }
             if (movement.type === 'bracket') {
-                return compoundMovements.concat({
+                compoundMovements.push({
                     type: 'bracket',
                     operations: this.compoundArrowAndOperationMovement(
                         movement.operations
                     ),
                 });
+                continue;
             }
             const previousMovement = guard({
                 value: compoundMovements.at(-1),
@@ -220,45 +214,47 @@ export default class Optimizer {
                 previousMovement.type === 'arrow' &&
                 movement.type === 'operation'
             ) {
-                return compoundMovements.slice(0, -1).concat({
+                compoundMovements[compoundMovements.length - 1] = {
                     type: 'arrow-operation',
                     index: previousMovement.index,
                     value: movement.value,
-                });
+                };
+                continue;
             }
-            return compoundMovements.concat(movement);
-        }, [] as CompoundMovements);
+            compoundMovements.push(movement);
+        }
+
+        return compoundMovements;
     };
 
     private readonly redundantMoveElimination = (nodes: Nodes): Nodes => {
-        const redundantBrackets = nodes.reduce(
-            (nodes, node, index, oldNodes) => {
-                switch (node.type) {
-                    case 'bracket': {
-                        const previousNode = oldNodes[index - 1];
-                        if (previousNode?.type === 'bracket') {
-                            return nodes;
-                        }
+        const redundantBrackets = [] as Array<Node>;
+        let previousNode = undefined as Node | undefined;
 
-                        const operations = this.redundantMoveElimination(
-                            node.instructions
-                        );
+        for (const node of nodes) {
+            const previousWasBracket = previousNode?.type === 'bracket';
+            previousNode = node;
 
-                        if (!operations.length) {
-                            return nodes;
-                        }
+            if (node.type !== 'bracket') {
+                redundantBrackets.push(node);
+                continue;
+            }
 
-                        return nodes.concat({
-                            type: 'bracket',
-                            instructions: operations,
-                        });
-                    }
-                }
+            if (previousWasBracket) {
+                continue;
+            }
 
-                return nodes.concat(node);
-            },
-            [] as Nodes
-        );
+            const operations = this.redundantMoveElimination(node.instructions);
+
+            if (!operations.length) {
+                continue;
+            }
+
+            redundantBrackets.push({
+                type: 'bracket',
+                instructions: operations,
+            });
+        }
 
         return redundantBrackets;
     };
